@@ -11,3 +11,8 @@ function arraysAreEqual(arr1, arr2) {
 
     return true; // All elements are equal
 }
+
+const array1 = [11, 22, 33];
+const array2 = [11, 22, 33];
+
+console.log(arraysAreEqual(array1, array2)); // true
