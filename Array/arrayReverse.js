@@ -14,3 +14,9 @@ function reverseArray(array){
     return array;
 
 }
+
+//Example Usage
+var originalArray=[1,2,3,4,5,6];
+var newArray=reverseArray(originalArray);
+console.log(newArray);
+//output: [6,5,4,3,2,1]
