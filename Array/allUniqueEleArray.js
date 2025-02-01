@@ -9,5 +9,6 @@ function allUnique(arr) {
     return true; // No duplicates
 }
 
-
+console.log(allUnique([1, 2, 3, 4])); // true
+console.log(allUnique([1, 2, 3, 2])); // false
 
