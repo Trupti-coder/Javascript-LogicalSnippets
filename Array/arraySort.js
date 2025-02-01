@@ -16,3 +16,4 @@ function sortArray(arr){
 //Example usage
 let array=[1,4,6,8,3,4];
 console.log(sortArray(array));
+//output:[1,3,4,4,6,8]
