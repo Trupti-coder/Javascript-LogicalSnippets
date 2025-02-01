@@ -1,7 +1,7 @@
 function arrayChunk(arr,k){
    let result=[];
    let chunk=[];
-   for(let i=onabort;i<arr.length;i++){ // function uses for loop for go through each element in an array
+   for(let i=0;i<arr.length;i++){ // function uses for loop for go through each element in an array
     chunk.push(arr[i]);  //add the current element to the chunk
    
    if(chunk.length===k){   // if the chunk reches size k
@@ -16,3 +16,9 @@ function arrayChunk(arr,k){
    }
    return result;
 }
+
+//Example Usage
+let array=[1,2,3,4,5,6,6,7,88,9,90,8,5];
+let k=2;
+let result=arrayChunk(array,k);
+console.log(result);
