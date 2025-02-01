@@ -9,5 +9,16 @@ function rotateArray(array,k){
     }
 
     //copy the result array back to the original array
+    for(let i=0;i<n;i++){
+        arr[i]=result[i];
+    }
+
+    return arr;
 
 }
+
+//Example usage
+let array=[1,2,3,4,5];
+let rotateArray=rotateArray(array,2);
+console.log(rotateArray);
+//output:[4,5,1,2,3]
