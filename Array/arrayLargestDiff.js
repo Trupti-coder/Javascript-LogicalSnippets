@@ -17,3 +17,8 @@ function largestDifference(arr){
     return max - min;
 
 }
+
+// Example usage:
+let array = [1, 2, 9, 4, 5, -3];
+let difference = largestDifference(array);
+console.log(difference);  // Output: 12
