@@ -12,3 +12,8 @@ function findMissingNumber(){
     let missingNumber=totalsum-arraySum;
     return missingNumber;
 }
+
+// Example usage
+let arr = [1, 2, 4, 5, 6];
+let missingNumber = findMissingNumber(arr);
+console.log(`The missing number is: ${missingNumber}`);
