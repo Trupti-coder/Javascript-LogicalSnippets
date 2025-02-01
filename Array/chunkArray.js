@@ -1,0 +1,3 @@
+function arrayChunk(arr,k){
+    
+}
