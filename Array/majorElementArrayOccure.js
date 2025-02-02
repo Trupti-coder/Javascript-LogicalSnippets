@@ -21,3 +21,6 @@ function findMajorElement(arr){
 return majorityElement;
 
 }
+//Example
+let arr=[1,2,3,4,4,5,6,7,8,9,9,9,9];
+console.log(findMajorElement(arr));
