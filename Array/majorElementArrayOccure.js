@@ -1,7 +1,7 @@
 function findMajorElement(arr){
-    let maxCount=0; 
-    let majorityElement=null;
-
+    let maxCount=0;       // to keep track of the maximum count
+    let majorityElement=null; // to store majority element
+     //Outer loop to pick up each element
     for(let i=0;i<arr.length;i++){
         let count=0;
     
