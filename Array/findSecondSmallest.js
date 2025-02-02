@@ -19,3 +19,7 @@ function findSecondSmallest(arr){
     return secondSmallest===Infinity?null:secondSmallest;
 
 }
+//Example usage
+var number=[5,3,8,1,2];
+var result=findSecondSmallest(number);
+console.log("second smallest:",result);
