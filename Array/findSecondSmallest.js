@@ -1,0 +1,3 @@
+function findSecondSmallest(arr){
+
+}
