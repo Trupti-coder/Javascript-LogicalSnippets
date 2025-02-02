@@ -9,3 +9,7 @@ function findFirstDuplicate(arr){
     return -1;
 
 }
+//Example usage
+let arr=[1,2,3,4,5,6,2];
+console.log(findFirstDuplicate(arr));
+// 1
