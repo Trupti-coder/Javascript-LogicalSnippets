@@ -11,7 +11,11 @@ function findSecondSmallest(arr){
             secondSmallest=smallest;
             smallest=arr[i];
         }
+        else if(arr[i]<secondSmallest && arr[i]!==smallest){
+            secondSmallest=arr[i];
+        }
 
     }
+    return secondSmallest===Infinity?null:secondSmallest;
 
 }
