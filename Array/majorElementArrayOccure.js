@@ -5,13 +5,13 @@ function findMajorElement(arr){
     for(let i=0;i<arr.length;i++){
         let count=0;
     
-
+     // Inner loop to count occurences of the selected element
     for(let j=0;j<arr.length;j++){
         if(arr[i]===arr[j]){
-            count++;
+            count++;  //Increment count when a match is found
         }
     }
-
+     // Update majority element if this element occurs more frequently 
     if(count>maxCount){
         maxCount=count;
         majorityElement=arr[i];
