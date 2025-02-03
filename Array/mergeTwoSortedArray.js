@@ -13,4 +13,15 @@ function mergeSortedArrays(arr1,arr2){
         }
     }
 
+    if(i<arr1.length){
+        mergedArray.push(arr1[i]);
+        i++;
+    }
+
+    if(j<arr2.length){
+        mergedArray.push(arr2[j]);
+        j++;
+    }
+    return mergedArray;
+
 }
