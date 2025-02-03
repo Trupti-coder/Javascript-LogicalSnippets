@@ -3,8 +3,8 @@ function maxSubArray(arr){
         return 0;
     }
 
-    let maxSum=arr[0];
-    let currentSum=arr[0];
+    let maxSum=arr[0]; //start with the first element as the maximum sum;
+    let currentSum=arr[0]; //Initialize the current sum with the first element
 
     for(let i=1;i<arr.length;i++){
         if(arr[i]>currentSum+arr[i]){
