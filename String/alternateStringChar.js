@@ -15,3 +15,9 @@ function alternateString(s1,s2){
     }
     return result;
 }
+
+//Example usage
+let s1="abc";
+let s2="12345";
+console.log(alternateString(s1,s2));
+//output:"a1b2c345"
