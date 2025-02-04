@@ -10,18 +10,25 @@ function mergeSortedArrays(arr1,arr2){
         }
         else{
             mergedArray.push(arr2[j]);
+            j++;
         }
     }
 
-    if(i<arr1.length){
+    while(i<arr1.length){
         mergedArray.push(arr1[i]);
         i++;
     }
 
-    if(j<arr2.length){
+    while(j<arr2.length){
         mergedArray.push(arr2[j]);
         j++;
     }
     return mergedArray;
 
 }
+
+// Example usage
+let array1 = [1, 3, 5];
+let array2 = [2, 4, 6];
+let result = mergeSortedArrays(array1, array2);
+console.log(result); // Output: [1, 2, 3, 4, 5, 6]
