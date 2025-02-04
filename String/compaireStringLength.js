@@ -14,3 +14,4 @@ function compaireString(str1,str2){
 
     }
 }
+console.log(compaireString("ab","abcc"))
