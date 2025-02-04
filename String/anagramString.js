@@ -21,3 +21,7 @@ function areAnagrams(str1,str2){
     return sortedStr1===sortedStr2;
 
 }
+
+let str1="swara";
+let str2="raswa";
+console.log(areAnagrams(str1,str2));
