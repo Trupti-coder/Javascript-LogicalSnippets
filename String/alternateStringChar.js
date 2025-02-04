@@ -5,10 +5,12 @@ function alternateString(s1,s2){
     //loop through both strings up to the length of the longer string
     for(let i=0;i<maxLength;i++){
         if(i<s1.length){
+            //Apend character from s1 if it exists
             let code1=s1.charCodeAt(i);
             result+=String.fromCharCode(code1);
         }
         if(i<s2.length){
+            //Append Characten from s2 if it exists
             let code2=s2.charCodeAt(i);
             result+=String.fromCharCode(code2);
         }
