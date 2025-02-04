@@ -5,13 +5,12 @@ function compaireString(str1,str2){
     if(len1===len2){
         return "Equal"
     }
-    else if(){
+    else if(len1<len2){
+        return `${str1} is shorter thar ${str2}`
 
     }
     else{
-        
+        return `${str1} is grater than ${str2}`
+
     }
-
-
-
 }
