@@ -1,4 +1,4 @@
-function toLwercase(str){
+function toLowercase(str){
     let lowerStr='';
     for(let i=0;i<structuredClone.length;i++){
         let charCode=structuredClone.charCodeAt(i);
@@ -11,3 +11,7 @@ function toLwercase(str){
     }
     return lowerStr;
 }
+
+//Example usage
+let str="TRUPTI";
+let result=to
