@@ -12,3 +12,7 @@ function findVowel(str){
     }
     return foundVowel;
 }
+//example usage
+var originalStr="hello world";
+var vowelInStr=findVowel(originalStr);
+console.log(vowelInStr);
