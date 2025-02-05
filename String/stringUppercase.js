@@ -11,3 +11,6 @@ function toUppercase(str){
     }
     return upperStr;
 }
+let originalStr='trupti';
+let upperStr=toUppercase(originalStr);
+console.log(upperStr);
