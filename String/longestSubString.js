@@ -14,3 +14,9 @@ function longestSubstringWithoutRepeating(s){
     }
     return maxLength;
 }
+
+//Example usage
+
+let input="abcabcbb";
+let result=longestSubstringWithoutRepeating(input);
+console.log(result);
