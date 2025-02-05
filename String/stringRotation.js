@@ -31,3 +31,8 @@ function isRotation(s1,s2){
     return false; // s2 is not a rotation of s1
 
 }
+
+// Example usage:
+const s1 = "waterbottle";
+const s2 = "erbottlewat";
+console.log(isRotation(s1, s2)); // Output: true
