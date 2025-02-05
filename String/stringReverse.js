@@ -6,3 +6,6 @@ function stringReverse(str){
     }
     return reversed;
 }
+//Example usage
+let str="Javascript";
+console.log(stringReverse(str));
