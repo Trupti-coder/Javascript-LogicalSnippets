@@ -1,4 +1,4 @@
-function countConsonants(){
+function countConsonants(str){
     let countConsonants=0;
     let vowels='aeiouAEIOU';
 
@@ -21,3 +21,6 @@ function countConsonants(){
 }
 return countConsonants;
 }
+console.log(countConsonants("hello world"));
+console.log(countConsonants("javascript"));
+console.log(countConsonants("AEIOUaeiou"));
