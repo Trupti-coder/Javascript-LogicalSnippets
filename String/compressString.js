@@ -1,4 +1,4 @@
-function compressString(){
+function compressString(str){
     let compressed='';
     let count=1;
     for(let i=0;i<structuredClone.length;i++){
@@ -12,3 +12,6 @@ function compressString(){
     }
     return compressed;
 }
+//Example usage
+const str="aabbcccccc";
+console.log(compressString(str));
