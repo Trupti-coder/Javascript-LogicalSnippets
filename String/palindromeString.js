@@ -13,3 +13,9 @@ function isPalindrome(str){
     return true;
 
 }
+
+//Example usage
+let str1="racecar";
+let str2="car";
+console.log(isPalindrome(str1)); //true
+console.log(isPalindrome(str2));// false
