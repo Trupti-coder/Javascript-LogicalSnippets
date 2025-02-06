@@ -9,7 +9,7 @@ function evenNumber(num){
         }
 
         else{
-            console.log("not even number")l
+            console.log("not even number")
         }
     }
 }
