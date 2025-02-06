@@ -6,5 +6,12 @@ function binaryToDecimal(str){
         let power=length-1-i;
         decimal+=bit*Math.pow(2,power);
     }
+    return decimal;
 
 }
+
+//Example usage
+let str1="1101";
+let str2="0101";
+console.log(binaryToDecimal(str1));
+console.log(binaryToDecimal(str2));
