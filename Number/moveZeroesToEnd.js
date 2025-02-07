@@ -11,3 +11,5 @@ function moveZeroesToEnd(arr){
     }
     return arr;
 }
+const arr=[0,1,4,5,7,0,3,0,9];
+console.log(moveZeroesToEnd(arr));
