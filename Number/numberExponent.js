@@ -5,3 +5,5 @@ function power(base,exponent){
     }
     return result;
 }
+console.log(power(2,3));
+console.log(power(5,5));
