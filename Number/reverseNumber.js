@@ -15,7 +15,7 @@ function reverseNumber(num){
     //return reverse number
     return reverse;
 }
-console.log(reverseNumber(1234));
-console.log(reverseNumber(100));
-console.log(reverseNumber(-1999));
+console.log(reverseNumber(1234));//output: 4321
+console.log(reverseNumber(100));//output: 1
+console.log(reverseNumber(-1999));//output: false
 
