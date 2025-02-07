@@ -18,6 +18,6 @@ function isPalindrome(num){
 
 }
 
-console.log(isPalindrome(121));
-console.log(isPalindrome(-10));
-console.log(isPalindrome(175));
+console.log(isPalindrome(121));//true
+console.log(isPalindrome(-10));//false
+console.log(isPalindrome(175));//false
