@@ -1,4 +1,9 @@
 function isPalindrome(num){
+    //Negative number are not palindrome
+    if(num<0){
+        return false;
+    }
+    //store the original number
     let originalNum=num;
     let reverse=0;
     //Reverse the number
