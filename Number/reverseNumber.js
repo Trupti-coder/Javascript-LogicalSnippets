@@ -16,3 +16,6 @@ function reverseNumber(num){
     return reverse;
 }
 console.log(reverseNumber(1234));
+console.log(reverseNumber(100));
+console.log(reverseNumber(-1999));
+
