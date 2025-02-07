@@ -7,3 +7,4 @@ function findNthDigit(num, n) {
     if (n > digits.length || n <= 0) return -1; // Handle invalid n
     return digits[n - 1];
 }
+console.log(findNthDigit(12345,3));
