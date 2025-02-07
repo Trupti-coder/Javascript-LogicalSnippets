@@ -9,7 +9,7 @@ function isPalindrome(num){
     //Reverse the number
     while(num>0){
         let digit=num%10; //Get the last number
-        let reverse=reverse*10+digit; //Add it to the reversed number
+         reverse=reverse*10+digit; //Add it to the reversed number
         num=Math.floor(num/10);  //RRemove the last digit from the number
 
     }
@@ -17,3 +17,7 @@ function isPalindrome(num){
     return originalNum===reverse
 
 }
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(-10));
+console.log(isPalindrome(175));
