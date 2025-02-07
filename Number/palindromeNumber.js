@@ -1,12 +1,14 @@
 function isPalindrome(num){
     let originalNum=num;
     let reverse=0;
+    //Reverse the number
     while(num>0){
-        let digit=num%10;
-        let reverse=reverse*10+digit;
-        num=Math.floor(num/10);
+        let digit=num%10; //Get the last number
+        let reverse=reverse*10+digit; //Add it to the reversed number
+        num=Math.floor(num/10);  //RRemove the last digit from the number
 
     }
+    //checks if the original number and revesred number are the same 
     return originalNum===reverse
 
 }
