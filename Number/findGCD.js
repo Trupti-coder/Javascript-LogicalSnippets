@@ -10,3 +10,6 @@ function findGCD(a,b){
     return a;
 
 }
+console.log(findGCD(48,18));
+console.log(findGCD(-48,-18));
+console.log(findGCD(7,5));
