@@ -8,3 +8,5 @@ function isPerfectSquare(num){
     }
     return false;
 }
+console.log(isPerfectSquare(16)); //true
+console.log(isPerfectSquare(58));//false
