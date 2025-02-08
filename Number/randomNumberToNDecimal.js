@@ -7,3 +7,5 @@ function roundToN(num,n){
     return (Math.floor(num*factor+0.5))/factor;
 
 }
+console.log(roundToN(3.14159),2); //3.14
+console.log(roundToN(2.1235,3)); //2.123
