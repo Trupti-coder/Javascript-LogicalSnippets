@@ -7,6 +7,6 @@ function hasKey(obj,key){
     }
     return false;
 }
-console.log(hasKey(obj,"c"));
-console.log(hasKey(obj,"d"));
+console.log(hasKey(obj,"c")); //true;
+console.log(hasKey(obj,"d"));//false 
 
