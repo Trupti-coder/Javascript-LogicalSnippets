@@ -9,3 +9,7 @@ function stringify(obj){
     result += '}';
     return result;
 }
+
+// Example
+let obj = { name: "Alice", age: 25 };
+console.log(stringify(obj)); // {"name":"Alice","age":25}
