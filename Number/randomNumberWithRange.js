@@ -1,0 +1,3 @@
+function randomRange(min,max){
+    
+}
