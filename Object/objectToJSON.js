@@ -5,4 +5,7 @@ function stringify(obj){
         result += `"${key}":${value},`;
 
     }
+    result = result.slice(0, -1); // Remove trailing comma
+    result += '}';
+    return result;
 }
