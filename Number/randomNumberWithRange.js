@@ -9,3 +9,4 @@ function randomRange(min,max){
 }
 return min+random;
 }
+console.log(randomRange(1,10)) //random number between 1 to 10
