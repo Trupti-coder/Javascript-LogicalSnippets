@@ -17,3 +17,11 @@ function printPyramid(height){
 
 //Example usage:
 printPyramid(5);
+
+/* Output:
+    *
+   ***
+  *****
+ *******
+*********
+*/
