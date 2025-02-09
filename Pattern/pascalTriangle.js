@@ -15,6 +15,13 @@ function pascalTriangle(n){
                 row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j];
             }
         }
+         // Add the completed row to the triangle
+         triangle[i] = row;
+        }
+    
+        // Print the triangle
+        for (let i = 0; i < triangle.length; i++) {
+            console.log(triangle[i].join(' '));
+        }
       }
 
-}
