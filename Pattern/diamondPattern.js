@@ -37,3 +37,18 @@ function printDiamond(n){
        }
 
 }
+
+
+// Example usage:
+printDiamond(5);
+/* Output:
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+*/
