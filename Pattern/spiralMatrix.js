@@ -11,6 +11,11 @@ function printSpiralMatrix(n){
         for (let i = top; i <= bottom; i++) {
             matrix[i][right] = value++;
         }
+
+        right--;
+        for (let i = right; i >= left; i--) {
+            matrix[bottom][i] = value++;
+        }
     }
 
 }
