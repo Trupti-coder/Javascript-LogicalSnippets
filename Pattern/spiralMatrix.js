@@ -7,6 +7,10 @@ function printSpiralMatrix(n){
         for (let i = left; i <= right; i++) {
             matrix[top][i] = value++;
         }
+        top++;
+        for (let i = top; i <= bottom; i++) {
+            matrix[i][right] = value++;
+        }
     }
 
 }
