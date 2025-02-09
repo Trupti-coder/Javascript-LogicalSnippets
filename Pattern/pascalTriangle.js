@@ -22,6 +22,19 @@ function pascalTriangle(n){
         // Print the triangle
         for (let i = 0; i < triangle.length; i++) {
             console.log(triangle[i].join(' '));
+        
         }
       }
+
+      // Example usage:
+generatePascalsTriangle(5);
+
+
+/* Output:
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+*/
 
