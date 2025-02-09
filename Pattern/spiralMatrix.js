@@ -16,6 +16,13 @@ function printSpiralMatrix(n){
         for (let i = right; i >= left; i--) {
             matrix[bottom][i] = value++;
         }
+
+        bottom--;
+        for (let i = bottom; i >= top; i--) {
+            matrix[i][left] = value++;
+        }
+        left++;
+    }
     }
 
 }
