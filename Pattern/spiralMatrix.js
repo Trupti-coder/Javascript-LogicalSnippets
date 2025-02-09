@@ -23,6 +23,11 @@ function printSpiralMatrix(n){
         }
         left++;
     }
+    
+    for (let i = 0; i < n; i++) {
+        console.log(matrix[i].join(' '));
     }
 
-}
+    
+    }
+
