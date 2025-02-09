@@ -9,5 +9,10 @@ for(let i=0;i<n;i++){
             line+=num;
             num++;
         }
+        else{
+            line += String.fromCharCode(charCode)
+            charCode++; 
+        }
     }
+    console.log(line);
 }
