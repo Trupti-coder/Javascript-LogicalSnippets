@@ -3,5 +3,10 @@ function printSpiralMatrix(n){
     let value = 1;
     let top = 0, left = 0;
     let bottom = n - 1, right = n - 1;
+    while (value <= n * n) {
+        for (let i = left; i <= right; i++) {
+            matrix[top][i] = value++;
+        }
+    }
 
 }
