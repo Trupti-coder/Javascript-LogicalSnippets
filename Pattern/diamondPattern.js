@@ -18,4 +18,10 @@ function printDiamond(n){
 
     }
 
+       // Lower part of the diamond
+       for (let i = n - 1; i >= 1; i--) {
+        let line = '';
+
+       }
+
 }
