@@ -10,11 +10,15 @@ function selectionSortObjects(arr, key){
             if (arr[j][key] < arr[minIndex][key]) {
                 minIndex = j;
             }
+
         }
+         // Swap elements
+         let temp = arr[i];
+         arr[i] = arr[minIndex];
+         arr[minIndex] = temp;
+
 
     }
-
-
-
+    return arr;
 
 }
