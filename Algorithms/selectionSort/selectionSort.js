@@ -7,7 +7,17 @@ function selectionSort(arr){
     }
 
     for(let j=i+1;j<n;j++){
-        
+      if(arr[j]<arr[minIndex]){
+        minIndex=j;
+      }  
+      //swap elements
+
+    let temp=arr[i];
+    arr[i]=arr[minIndex];
+    arr[minIndex]=temp;
+
     }
+
+    return arr;
 
 }
