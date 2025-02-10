@@ -9,5 +9,12 @@ function selectionSortDescending(arr){
                 maxIndex=j;
             }
         }
+
+        //swap elements
+        let temp=arr[i];
+        arr[i]=arr[maxIndex];
+        arr[maxIndex]=temp;
     }
+
+    return arr;
 }
