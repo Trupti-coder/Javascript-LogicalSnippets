@@ -30,3 +30,7 @@ let people = [
     { name: "Bob", age: 20 },
     { name: "Charlie", age: 30 }
 ];
+
+
+console.log(selectionSortObjects(people, "age"));
+// Output: [{name: "Bob", age: 20}, {name: "Alice", age: 25}, {name: "Charlie", age: 30}]
