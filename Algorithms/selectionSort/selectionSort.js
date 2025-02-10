@@ -21,3 +21,7 @@ function selectionSort(arr){
     return arr;
 
 }
+
+// Example Usage
+let numbers = [64, 25, 12, 22, 11];
+console.log(selectionSort(numbers)); // Output: [11, 12, 22, 25, 64]
