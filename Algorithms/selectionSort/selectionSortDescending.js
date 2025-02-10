@@ -18,3 +18,10 @@ function selectionSortDescending(arr){
 
     return arr;
 }
+
+
+// Example Usage
+
+let numbers = [64, 25, 12, 22, 11];
+console.log(selectionSortDescending(numbers)); 
+// Output: [64, 25, 22, 12, 11]
