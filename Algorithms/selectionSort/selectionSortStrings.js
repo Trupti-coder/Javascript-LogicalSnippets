@@ -9,6 +9,12 @@ function selectionSortStrings(arr){
                 minIndex=j;
             }
         }
+        //swap elements
+
+        let temp=arr[i];
+        arr[i]=arr[minIndex];
+        arr[minIndex]=temp;
     }
 
+    return arr;
 }
