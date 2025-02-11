@@ -18,3 +18,8 @@ function selectionSortStrings(arr){
 
     return arr;
 }
+
+// Example Usage
+let words = ["Banana", "apple", "Cherry", "date"];
+console.log(selectionSortStrings(words));
+ // Output: ["apple", "Banana", "Cherry", "date"]
