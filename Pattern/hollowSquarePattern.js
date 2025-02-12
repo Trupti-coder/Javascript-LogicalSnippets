@@ -1,0 +1,3 @@
+function printHollowSquare(n){
+    
+}
