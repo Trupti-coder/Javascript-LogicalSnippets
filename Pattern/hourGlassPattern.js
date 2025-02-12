@@ -26,3 +26,18 @@ function printHourglass(n){
         console.log(line);
     }
 }
+
+// Example usage:
+printHourglass(5);
+
+/* Output:
+*********
+ *******
+  *****
+   ***
+    *
+   ***
+  *****
+ *******
+*********
+*/
