@@ -19,5 +19,13 @@ function printHollowSquare(n){
 //Example usage
 printHollowSquare(5);
 
+/* Output:
 
+*****
+*   *
+*   *
+*   *
+*****
+
+*/
 
