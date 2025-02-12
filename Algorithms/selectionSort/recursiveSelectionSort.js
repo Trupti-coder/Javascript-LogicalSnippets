@@ -7,5 +7,10 @@ function recursiveSelectionSort(arr,start=0){
             minIndex=i;
         }
     }
+
+    //swap
+    [arr[start],arr[minIndex]]=[arr[minIndex],arr[start]];
+    return recursiveSelectionSort(arr,start+1);
     
 }
+
