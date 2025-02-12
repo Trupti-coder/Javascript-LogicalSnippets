@@ -11,7 +11,13 @@ function printHollowSquare(n){
                 line+=' ';
             }
     }
+    console.log(line);
 }
 
 }
+
+//Example usage
+printHollowSquare(5);
+
+
 
