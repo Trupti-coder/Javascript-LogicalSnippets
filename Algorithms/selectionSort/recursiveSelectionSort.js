@@ -14,3 +14,9 @@ function recursiveSelectionSort(arr,start=0){
     
 }
 
+//Example Usage
+
+let numbers=[64,25,12,22,11];
+console.log(recursiveSelectionSort(numbers));
+
+//output: [11, 12, 22, 25, 64] 
