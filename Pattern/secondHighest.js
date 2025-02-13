@@ -14,3 +14,7 @@ function findSecondHighest(arr){
     }
     return secondHighest;
 }
+
+let array = [1, 3, 4, 5, 0, 2];
+let secondHighest = findSecondHighest(array);
+console.log(secondHighest);  // Output: 4
