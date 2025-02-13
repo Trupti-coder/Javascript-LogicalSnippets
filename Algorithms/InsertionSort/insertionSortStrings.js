@@ -11,6 +11,16 @@ function insertionSortStrings(arr){
             j--;
 
     }
-}
+    arr[j + 1] = original;
+
+  }
+
+return arr;
 
 }
+
+// Example Usage
+
+let words = ["Banana", "apple", "Cherry", "date"];
+console.log(insertionSortStrings(words)); 
+// Output: ["apple", "Banana", "Cherry", "date"]
