@@ -7,8 +7,10 @@ function findSecondHighest(arr){
             secondHighest=highest;
             highest=arr[i];
         }
-        else if(){
-            
+        else if(arr[i]>secondHighest && arr[i] !==highest){
+            secondHighest=arr[i];
+
         }
     }
+    return secondHighest;
 }
