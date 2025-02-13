@@ -11,7 +11,14 @@ function insertionSortDescending(arr){
             arr[j + 1] = arr[j];
             j--;
         }
+        arr[j + 1] = current;
 
     }
+    return arr;
 
 }
+
+// Example Usage
+let numbers = [64, 25, 12, 22, 11];
+console.log(insertionSortDescending(numbers)); 
+// Output: [64, 25, 22, 12, 11]
