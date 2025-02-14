@@ -20,3 +20,9 @@ console.log("Total Shifts:", shiftCount);
 return arr;
 
 }
+
+// Example Usage
+let numbers = [64, 25, 12, 22, 11];
+console.log(insertionSortCountShifts(numbers)); 
+// Output: Total Shifts: 10
+//         [11, 12, 22, 25, 64]
