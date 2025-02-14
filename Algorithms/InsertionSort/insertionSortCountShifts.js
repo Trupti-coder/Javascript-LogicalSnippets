@@ -8,5 +8,11 @@ function insertionSortCountShifts(arr){
         let j=i-1;
     }
 
+    while (j >= 0 && arr[j] > current) {
+        arr[j + 1] = arr[j];
+        j--;
+        shiftCount++; // Count the shift
+    }
+    arr[j + 1 ]=current;
 
 }
