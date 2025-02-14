@@ -18,3 +18,8 @@ function recursiveInsertionSort(arr,n=arr.length){
 
 
 }
+
+// Example Usage
+let numbers = [64, 25, 12, 22, 11];
+console.log(recursiveInsertionSort(numbers));
+ // Output: [11, 12, 22, 25, 64]
