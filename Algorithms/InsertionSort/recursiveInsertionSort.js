@@ -13,7 +13,8 @@ function recursiveInsertionSort(arr,n=arr.length){
         }
 
 
-
+    arr[j + 1] = last;
+    return arr;
 
 
 }
