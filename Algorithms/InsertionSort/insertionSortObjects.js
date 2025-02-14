@@ -15,3 +15,10 @@ function insertionSortObjects(arr,key){
 return arr;
 
 }
+
+// Example Usage
+let people = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 20 },
+    { name: "Charlie", age: 30 }
+];
