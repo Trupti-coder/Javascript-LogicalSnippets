@@ -41,5 +41,11 @@ console.log("5" - 3); //2
 console.log("5"+ 3);//53
 // - converts "5" to a number, but + triggers string concatenation
 
-//
+// 8
+let obj1 = { a: 1 };
+let obj2 = { a: 1 };
+
+console.log(obj1 == obj2);  // false
+console.log(obj1 === obj2); // false
+
 
