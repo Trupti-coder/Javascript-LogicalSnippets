@@ -9,3 +9,8 @@ console.log(areObjectsEqual({ a: 1, b: 2 }, { b: 2, a: 1 })); //false  because o
 // 2
 console.log( 1 + "2" + 3 ); // "123"
 console.log( 1 + 2 + "3" ); // "33"
+
+
+// 3
+console.log([]==false); // true
+console.log({}==false); // false
