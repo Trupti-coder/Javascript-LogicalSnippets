@@ -22,3 +22,9 @@ var a=10;
     var a=20;
 })(); // undefined  because  Variable a is hoisted inside the function but not initialized yet
 
+// 5
+
+let a={};
+let b=a;
+a.prop=42;
+console.log(b.prop); // 42 object are passed by referance in javascript
