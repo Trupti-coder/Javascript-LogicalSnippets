@@ -14,3 +14,11 @@ console.log( 1 + 2 + "3" ); // "33"
 // 3
 console.log([]==false); // true
 console.log({}==false); // false
+
+// 4
+var a=10;
+(function (){
+    console.log(a);
+    var a=20;
+})(); // undefined  because  Variable a is hoisted inside the function but not initialized yet
+
