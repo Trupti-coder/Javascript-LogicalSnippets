@@ -48,4 +48,12 @@ let obj2 = { a: 1 };
 console.log(obj1 == obj2);  // false
 console.log(obj1 === obj2); // false
 
+// 9
+var a = 5;
+function test() {
+    console.log(a);
+    var a = 10;
+}
+test(); //undefined
+
 
