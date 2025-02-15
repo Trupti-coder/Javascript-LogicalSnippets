@@ -24,3 +24,6 @@ console.log("End");
 // Timeout
 //This is because the Promise.then callback is processed before the setTimeout callback due to microtasks (promises) having higher priority than macrotasks (setTimeout) in the event loop.
 
+// 4
+console.log(typeof NaN);
+//number  (NaN is a special type of number in JavaScript.)
