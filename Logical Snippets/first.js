@@ -22,3 +22,5 @@ console.log("End");
 // End
 // Promise
 // Timeout
+//This is because the Promise.then callback is processed before the setTimeout callback due to microtasks (promises) having higher priority than macrotasks (setTimeout) in the event loop.
+
