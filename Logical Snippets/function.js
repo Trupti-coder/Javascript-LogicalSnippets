@@ -35,3 +35,11 @@ arr[100]=40;
 console.log(arr.length); // 101
 //Now, since arrays in JavaScript can be sparse (they don't need to have consecutive indices),
 //  setting arr[100] = 40 creates a lot of empty slots in between.
+
+// 7
+console.log("5" - 3); //2
+console.log("5"+ 3);//53
+// - converts "5" to a number, but + triggers string concatenation
+
+//
+
