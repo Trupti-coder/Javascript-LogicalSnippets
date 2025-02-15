@@ -28,3 +28,10 @@ let a={};
 let b=a;
 a.prop=42;
 console.log(b.prop); // 42 object are passed by referance in javascript
+
+// 6
+let arr=[10,20,30];
+arr[100]=40;
+console.log(arr.length); // 101
+//Now, since arrays in JavaScript can be sparse (they don't need to have consecutive indices),
+//  setting arr[100] = 40 creates a lot of empty slots in between.
