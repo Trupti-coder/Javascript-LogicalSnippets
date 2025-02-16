@@ -54,6 +54,11 @@ console.log(obj);
 // { a: "three", b: "two" }
 
 
+console.log(typeof NaN); // number
+console.log(NaN === NaN);//false
+
+
+
 
 
 
