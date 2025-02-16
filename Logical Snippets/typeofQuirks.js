@@ -27,4 +27,10 @@ let a = 10;
 // output : ReferenceError: Cannot access 'a' before initialization
 // let variables are hoisted but are in a "temporal dead zone" until declared
 
+let arr1 = [1, 2, 3];
+arr1[5] = 42;
+console.log(ar1r.length); // 6
+
+
+
 
