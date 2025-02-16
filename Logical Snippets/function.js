@@ -116,7 +116,24 @@ const obj = {
     }
   };
   
-  obj.method();
+  obj.method(); //undefined
+
+  // 16
+
+  console.log("Start");
+
+setTimeout(() => {
+    console.log("Timeout");
+}, 0);
+
+Promise.resolve().then(() => {
+    console.log("Promise");
+});
+
+console.log("End");
+
+
+
   
 
 
