@@ -90,6 +90,23 @@ function test() {
 }
 
 
+// 14
+
+function normalFunction() {
+    console.log(arguments);
+}
+
+const arrowFunction = () => {
+    console.log(arguments);
+};
+
+normalFunction(1, 2, 3);
+arrowFunction(1, 2, 3);
+
+/* output : [Arguments] { '0': 1, '1': 2, '2': 3 }
+ReferenceError: arguments is not defined */
+
+
 
 
 
