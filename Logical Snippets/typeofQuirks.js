@@ -8,3 +8,9 @@ console.log([]+{}); // "[object object]"
 console.log({}+[]); //"[object object]"
 console.log(0.1 +  0.2 === 0.3); //false
 console.log([10,5,2,1].sort()); //[1,10,2,5]; sort() trats numbers as a strings
+
+
+let arr=[1,2,3];
+delete arr[1];
+console.log(arr); //[1,empty,3]
+console.log(arr.length); //3 delete removes the value but does not update length
