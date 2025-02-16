@@ -143,11 +143,23 @@ Timeout
 
 // 17
 
-const obj = { name: "Alice" };
+const obj2 = { name: "Alice" };
 Object.prototype.age = 25;
 
-console.log(obj.age); // 25
-console.log("age" in obj); // true
+console.log(obj2.age); // 25
+console.log("age" in obj2); // true
+
+
+// 18
+
+function foo(a = 5, b = a * 2) {
+    console.log(a, b);
+}
+
+foo();
+foo(3);
+foo(4, 10);
+
 
 
 
