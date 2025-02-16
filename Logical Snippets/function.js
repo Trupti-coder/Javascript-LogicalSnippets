@@ -107,6 +107,19 @@ arrowFunction(1, 2, 3);
 ReferenceError: arguments is not defined */
 
 
+// 15
+
+const obj = {
+    value: 10,
+    method: () => {
+      console.log(this.value);
+    }
+  };
+  
+  obj.method();
+  
+
+
 
 
 
