@@ -80,6 +80,25 @@ console.log(typeof typeof 1);
 // typeof "number" → "string"
 
 
+function foo() {
+    console.log("First");
+}
+
+foo();
+
+function foo() {
+    console.log("Second");
+}
+
+foo();
+
+//output : 
+// Second
+// Second
+
+
+
+
 
 
 
