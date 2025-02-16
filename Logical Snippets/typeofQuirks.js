@@ -45,6 +45,18 @@ console.log(null instanceof Object); // false
 console.log(1 < 2 < 3); // true
 console.log(3 > 2 > 1); // false
 
+console.log([] == ![]); //true
+
+
+const obj = { a: "one", b: "two", a: "three" };
+console.log(obj);
+//output:
+// { a: "three", b: "two" }
+
+
+
+
+
 
 
 
