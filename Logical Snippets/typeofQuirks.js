@@ -116,6 +116,15 @@ obj["1"] = "Maybe";
 
 console.log(obj); // { "true": "Yes", "1": "Maybe" }
 
+const person = { name: "John" };
+const newPerson = person;
+
+delete newPerson.name;
+
+console.log(person);  // {}
+
+
+
 
 
 
