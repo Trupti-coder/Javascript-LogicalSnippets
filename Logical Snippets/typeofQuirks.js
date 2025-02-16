@@ -20,3 +20,11 @@ console.log(typeof undefined); // "undefined"
 console.log([] + []) // ""
 console.log([] + {}); // "[object object]"
 console.log({} + []); // "[object object]"
+
+
+console.log(a);
+let a = 10;
+// output : ReferenceError: Cannot access 'a' before initialization
+// let variables are hoisted but are in a "temporal dead zone" until declared
+
+
