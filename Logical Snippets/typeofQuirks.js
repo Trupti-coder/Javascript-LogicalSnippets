@@ -61,6 +61,16 @@ console.log(parseInt("10", 2));//2
 console.log(parseInt("10", 8));//8
 console.log(parseInt("10", 16));//16
 
+let a1 = {};
+let b = { key: "b" };
+let c = { key: "c" };
+
+a1[b] = 123;
+a1[c] = 456;
+
+console.log(a1[b]); // 456
+
+
 
 
 
