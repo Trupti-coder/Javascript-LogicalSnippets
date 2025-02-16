@@ -35,6 +35,13 @@ console.log(isNaN("Hello"));        // true  isNaN("Hello") → "Hello" is conve
 console.log(Number.isNaN("Hello")); // false  Number.isNaN("Hello") → Does not convert, so returns false.
 
 
+console.log([] instanceof Array);  // true
+console.log({} instanceof Object); // true
+console.log(function(){} instanceof Object); // true
+console.log(null instanceof Object); // false
+
+
+
 
 
 
