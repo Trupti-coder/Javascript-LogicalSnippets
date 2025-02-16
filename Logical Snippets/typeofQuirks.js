@@ -74,6 +74,12 @@ console.log(a1[b]); // 456
 b and c are converted to "[object Object]".
 The second assignment (a[c] = 456) overwrites the first (a[b] = 123). */
 
+console.log(typeof typeof 1); 
+// output:"string"  
+// typeof 1 → "number"
+// typeof "number" → "string"
+
+
 
 
 
