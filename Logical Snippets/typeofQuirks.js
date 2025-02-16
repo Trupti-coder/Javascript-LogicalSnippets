@@ -31,6 +31,11 @@ let arr1 = [1, 2, 3];
 arr1[5] = 42;
 console.log(ar1r.length); // 6
 
+console.log(isNaN("Hello"));        // true  isNaN("Hello") → "Hello" is converted to a number, which is NaN.
+console.log(Number.isNaN("Hello")); // false  Number.isNaN("Hello") → Does not convert, so returns false.
+
+
+
 
 
 
