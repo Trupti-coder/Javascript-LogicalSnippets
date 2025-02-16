@@ -96,7 +96,15 @@ foo();
 // Second
 // Second
 
+
+
+
+
 console.log([] == ![]); // true
+
+console.log({} + []);
+console.log([] + {});
+
 
 
 
