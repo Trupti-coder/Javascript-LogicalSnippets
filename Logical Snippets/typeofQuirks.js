@@ -109,6 +109,18 @@ console.log([] + {});  // "[object Object]"
 
 
 
+const obj = {};
+obj[true] = "Yes";
+obj[1] = "No";
+obj["1"] = "Maybe";
+
+console.log(obj); // { "true": "Yes", "1": "Maybe" }
+
+
+
+
+
+
 
 
 
