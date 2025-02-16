@@ -60,9 +60,16 @@ test(); //undefined
 for (var i = 0; i < 3; i++) {
     setTimeout(() => console.log(i), 1000);
 }
-// 3
+//output
 3
 3
+3
+
+// 11
+for(let i=0;i<3;i++){
+    setTimeout(()=>console.log(i),1000);
+}
+//output 1 2 3 bcoz let creates new scope for i in each loop iteration
 
 
 
