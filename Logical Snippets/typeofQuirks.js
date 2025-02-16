@@ -68,7 +68,11 @@ let c = { key: "c" };
 a1[b] = 123;
 a1[c] = 456;
 
-console.log(a1[b]); // 456
+console.log(a1[b]); // 456 
+
+/* Object keys must be strings, but b and c are objects.
+b and c are converted to "[object Object]".
+The second assignment (a[c] = 456) overwrites the first (a[b] = 123). */
 
 
 
