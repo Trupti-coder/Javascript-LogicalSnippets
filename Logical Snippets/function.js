@@ -146,8 +146,8 @@ Timeout
 const obj = { name: "Alice" };
 Object.prototype.age = 25;
 
-console.log(obj.age);
-console.log("age" in obj);
+console.log(obj.age); // 25
+console.log("age" in obj); // true
 
 
 
