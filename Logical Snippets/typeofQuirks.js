@@ -96,6 +96,9 @@ foo();
 // Second
 // Second
 
+console.log([] == ![]); // true
+
+
 
 
 

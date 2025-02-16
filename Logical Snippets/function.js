@@ -71,6 +71,25 @@ for(let i=0;i<3;i++){
 }
 //output 1 2 3 bcoz let creates new scope for i in each loop iteration
 
+//12
+var x = 10;
+function test() {
+    console.log(x);
+    var x = 20;
+}
+test();
+ 
+//output : undefined
+
+// 13
+
+function test() {
+    var x;
+    console.log(x); // undefined
+    x = 20;
+}
+
+
 
 
 
