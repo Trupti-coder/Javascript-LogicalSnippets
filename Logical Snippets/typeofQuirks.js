@@ -15,3 +15,8 @@ delete arr[1];
 console.log(arr); //[1,empty,3]
 console.log(arr.length); //3 delete removes the value but does not update length
 arr.splice(1,1); // 3
+
+console.log(typeof undefined); // "undefined"
+console.log([] + []) // ""
+console.log([] + {}); // "[object object]"
+console.log({} + []); // "[object object]"
