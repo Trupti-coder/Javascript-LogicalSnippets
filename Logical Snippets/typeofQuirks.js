@@ -57,6 +57,11 @@ console.log(obj);
 console.log(typeof NaN); // number
 console.log(NaN === NaN);//false
 
+console.log(parseInt("10", 2));//2
+console.log(parseInt("10", 8));//8
+console.log(parseInt("10", 16));//16
+
+
 
 
 
