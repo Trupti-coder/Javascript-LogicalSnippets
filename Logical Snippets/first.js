@@ -27,3 +27,5 @@ console.log("End");
 // 4
 console.log(typeof NaN);
 //number  (NaN is a special type of number in JavaScript.)
+
+

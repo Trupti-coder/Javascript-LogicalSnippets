@@ -109,12 +109,12 @@ console.log([] + {});  // "[object Object]"
 
 
 
-const obj = {};
-obj[true] = "Yes";
-obj[1] = "No";
-obj["1"] = "Maybe";
+const object = {};
+object[true] = "Yes";
+object[1] = "No";
+object["1"] = "Maybe";
 
-console.log(obj); // { "true": "Yes", "1": "Maybe" }
+console.log(object); // { "true": "Yes", "1": "Maybe" }
 
 const person = { name: "John" };
 const newPerson = person;
@@ -124,9 +124,11 @@ delete newPerson.name;
 console.log(person);  // {}
 
 
-let arr = [1, 2, 3, 4, 5];
-arr.length = 2;
-console.log(arr); // [1, 2]
+let arr2 = [1, 2, 3, 4, 5];
+arr2.length = 2;
+console.log(arr2); // [1, 2]
+
+
 
 
 
