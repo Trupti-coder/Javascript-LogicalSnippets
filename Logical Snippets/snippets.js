@@ -161,6 +161,11 @@ function sayHi(age){
 console.log(sayHi.call(person,21));
 console.log(sayHi.bind(person,21));
 
+// 18
+function saHi(){
+    return(()=>0)();
+}
+console.log( typeof saHi()); //number
 
 
 
