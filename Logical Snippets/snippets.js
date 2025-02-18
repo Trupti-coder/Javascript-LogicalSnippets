@@ -17,4 +17,14 @@ console.log(x);  //10
 // let x=2;
 // console.log(x); //x has  been already declared
 
+// 4
+
+let a=3;
+let b= new Number(3);
+console.log(a==b); //true , checks only value
+console.log(a===b); // false , checks also datatype
+console.log(typeof(b));
+console.log(typeof(a));
+
+
 
