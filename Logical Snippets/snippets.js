@@ -124,6 +124,22 @@ for(let i=1;i<5;i++){
 // 1 2 3
 
 
+//16
+
+const foo =()=>console.log('first');
+const bar=()=> setTimeout(()=>console.log('second'));
+const baz=()=>console.log('third');
+
+bar();
+foo();
+baz();
+
+// first
+//third
+//second
+
+
+
 
 
 
