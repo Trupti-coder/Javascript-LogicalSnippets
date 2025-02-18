@@ -140,6 +140,18 @@ baz();
 
 
 
+// 17
+<div onclick="console.log('first div')">
+    <div onclick='console.log("second div")'></div>
+    <button onclick="console.log('button')">Click</button>
+</div>
+
+//button
+//second div
+//first div
+
+
+
 
 
 
