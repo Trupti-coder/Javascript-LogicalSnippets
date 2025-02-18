@@ -27,4 +27,12 @@ console.log(typeof(b));
 console.log(typeof(a));
 
 
+// 5 
+
+let name;
+ nmae={};
+console.log(name);
+
+
+
 
