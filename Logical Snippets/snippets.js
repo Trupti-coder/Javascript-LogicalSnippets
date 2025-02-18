@@ -34,5 +34,16 @@ let name;
 console.log(name);
 
 
+// 6
+
+function fruit(){
+    console.log("woof");
+}
+
+fruit.name='apple';
+console.log(fruit()); // woof
+
+
+
 
 
