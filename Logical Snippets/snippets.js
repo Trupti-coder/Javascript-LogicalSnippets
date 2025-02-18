@@ -168,6 +168,17 @@ function saHi(){
 console.log( typeof saHi()); //number
 
 
+// 19
+function hii(){
+    return()=>0;
+}
+console.log(typeof hii); // function
+
+// 20
+
+console.log(typeof typeof 1); //string
+
+
 
 
 
