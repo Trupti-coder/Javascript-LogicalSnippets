@@ -87,6 +87,14 @@ const sum1=eval('10*10+5');
 console.log(sum); //105 eval convert string into num method in python
 
 
+// 12
+
+sessionStorage.setItem('cool_server',123) // how long is acessible in browser
+// sessionstorage automatically remove when close tab or browser
+// when we use localstorage  value is accessible till long time
+
+
+
 
 
 
