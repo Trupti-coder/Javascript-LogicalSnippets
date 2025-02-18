@@ -81,6 +81,13 @@ function getAge(){
 getAge();  //referance error because when we use strict mode js  dosent allow to assign value to variable withou declaration
 
 
+// 11
+
+const sum1=eval('10*10+5');
+console.log(sum); //105 eval convert string into num method in python
+
+
+
 
 
 
