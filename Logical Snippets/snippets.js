@@ -102,6 +102,18 @@ console.log(obj);
 
 
 
+// 14 
+
+const obj1 = {1:"a", 2:'b',3:"c"};
+console.log(obj.hasOwnProperty("1")); // true
+console.log(obj.hasOwnProperty(1)); // true
+
+//The hasOwnProperty() method is a function in JavaScript
+//  that checks if an object has a particular property as its own
+
+
+
+
 
 
 
