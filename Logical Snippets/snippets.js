@@ -53,6 +53,15 @@ console.log(sum(1,"2")); //12
 
 
 
+//8
+
+let number=0;
+console.log(number++); //0
+console.log(++number); //2
+console.log(number); //2
+
+
+
 
 
 
