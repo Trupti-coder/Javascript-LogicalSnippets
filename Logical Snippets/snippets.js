@@ -71,6 +71,18 @@ function getAge(...args){
 getAge(21);
 
 
+//10
+
+function getAge(){
+   'use strict';
+   age=21;
+  console.log(age);  
+}
+getAge();  //referance error because when we use strict mode js  dosent allow to assign value to variable withou declaration
+
+
+
+
 
 
 
