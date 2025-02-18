@@ -93,6 +93,14 @@ sessionStorage.setItem('cool_server',123) // how long is acessible in browser
 // sessionstorage automatically remove when close tab or browser
 // when we use localstorage  value is accessible till long time
 
+// 13
+
+const obj = {a:"one" ,b:"two" ,a:"repeat"};
+console.log(obj);
+
+// {a:"repeat",b:"two"}
+
+
 
 
 
