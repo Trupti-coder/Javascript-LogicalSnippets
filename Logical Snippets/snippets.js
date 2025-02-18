@@ -44,6 +44,15 @@ fruit.name='apple';
 console.log(fruit()); // woof
 
 
+// 7
+
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(1,"2")); //12
+
+
+
 
 
 
