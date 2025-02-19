@@ -220,6 +220,10 @@ console.log(typeof +true); // number
 
 
 
+// 25
+
+console.log(!"anil");  //fasle
+console.log(typeof("anil")); // string
 
 
 
