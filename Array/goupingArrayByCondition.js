@@ -17,4 +17,8 @@ function groupByCondition(arr,condition){
         }
 
     }
+
+    // Return an array containing the two groups
+
+    return [group1,group2];
 }
