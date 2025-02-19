@@ -178,6 +178,20 @@ console.log(typeof hii); // function
 
 console.log(typeof typeof 1); //string
 
+// 21 
+
+function fruit(){
+   
+    console.log(name); //undefined
+    console.log(price); //referance error
+
+    var name='apple';
+    let price=20;
+
+}
+fruit();
+
+
 
 
 
