@@ -213,6 +213,13 @@ for(let i=0;i<3;i++){
 
 //output = 0 1 2  //let have block scope
 
+// 24
+
+console.log(+true); // 1 + before boolean convert it into number 
+console.log(typeof +true); // number
+
+
+
 
 
 
