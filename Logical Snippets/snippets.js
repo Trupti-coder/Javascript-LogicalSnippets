@@ -121,7 +121,7 @@ for(let i=1;i<5;i++){
 
 }
 
-// 1 2 3
+// 1 2 4
 
 
 //16
@@ -235,18 +235,5 @@ console.log(bird[data]); // small
 console.log(bird['size']); // small
 console.log(bird.size); // small
 console.log(bird.data); // undefined     //fun and variable name not work
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
