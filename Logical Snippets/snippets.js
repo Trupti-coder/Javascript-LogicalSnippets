@@ -23,8 +23,8 @@ let a=3;
 let b= new Number(3);
 console.log(a==b); //true , checks only value
 console.log(a===b); // false , checks also datatype
-console.log(typeof(b));
-console.log(typeof(a));
+console.log(typeof(b)); // object
+console.log(typeof(a));//number
 
 
 // 5 
@@ -116,7 +116,7 @@ console.log(obj.hasOwnProperty(1)); // true
 
 // 15
 for(let i=1;i<5;i++){
-    if(i===3) continue;
+    if(i===3) continue;// The continue statement is useful when you want to skip certain iterations based on a condition.
     console.log(i);
 
 }
