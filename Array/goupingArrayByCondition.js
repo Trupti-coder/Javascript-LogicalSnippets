@@ -22,3 +22,11 @@ function groupByCondition(arr,condition){
 
     return [group1,group2];
 }
+
+// Example usage: Group even and odd numbers
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let groupedNumbers = groupByCondition(numbers, function(num) {
+    return num % 2 === 0; // Condition for even numbers
+});
+
+console.log(groupedNumbers); // Output: [[2, 4, 6, 8, 10], [1, 3, 5, 7, 9]]
