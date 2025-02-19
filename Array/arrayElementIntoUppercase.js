@@ -16,5 +16,7 @@ function toUppercaseArray(arr){
         uppercasedArr[uppercasedArr.length]==uppercaseWord;  
            
      }
+
+     return uppercasedArr;
         
 }
