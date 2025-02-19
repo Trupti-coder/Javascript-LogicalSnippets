@@ -191,6 +191,22 @@ function fruit(){
 }
 fruit();
 
+// 22
+
+// 2
+
+for(let i=0;i<3;i++){
+    setTimeout(()=>{console.log(i),1});
+}
+
+//output ,here setTimeout function take some for execution before that loop is finish
+3
+3
+3
+
+
+
+
 
 
 
