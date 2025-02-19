@@ -225,7 +225,16 @@ console.log(typeof +true); // number
 console.log(!"anil");  //fasle
 console.log(typeof("anil")); // string
 
+// 26 
 
+let data='size';
+const bird ={
+    size:'small',
+};
+console.log(bird[data]); // small
+console.log(bird['size']); // small
+console.log(bird.size); // small
+console.log(bird.data); // undefined     //fun and variable name not work
 
 
 
