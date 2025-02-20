@@ -237,3 +237,5 @@ console.log(bird.size); // small
 console.log(bird.data); // undefined     //fun and variable name not work
 
 
+
+
