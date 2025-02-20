@@ -260,6 +260,14 @@ console.log(!!null); // False
 console.log(!!""); //false
 console.log(!!1); //true
 
+// 31
+
+console.log(setInterval(()=>console.log("hi"),1000)); 
+console.log(setInterval(()=>console.log("hi"),1000)); 
+console.log(setInterval(()=>console.log("hi"),1000)); 
+//1 2 3 hi hi hi hi hi hi......
+
+
 
 
 
