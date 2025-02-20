@@ -243,6 +243,13 @@ const numbers=[1,2,3];
 number[9]=11;
 console.log(numbers); // [1,2,3,empty*6,11];
 
+// 28
+const numbers1=[1,2,3];
+numbers[3]=numbers;
+console.log(numbers);
+
+
+
 
 
 
