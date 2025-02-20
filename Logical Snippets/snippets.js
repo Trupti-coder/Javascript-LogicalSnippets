@@ -275,6 +275,19 @@ console.log(typeof data1); // String
 //33
 console.log(typeof []); // object
 
+// 34
+
+console.log([]==[]); // false
+
+// 35
+
+let data2=[1,2,3].map(num=>{
+    if(typeof num === 'number') return;
+    return num*2;
+});
+console.log(data2);
+//geting undefine because return nothing empty.
+
 
 
 
