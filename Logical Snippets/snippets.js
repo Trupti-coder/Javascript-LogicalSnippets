@@ -272,6 +272,9 @@ console.log(setInterval(()=>console.log("hi"),1000));
 let data1 =3+4+"5";
 console.log(typeof data1); // String
 
+//33
+console.log(typeof []); // object
+
 
 
 
