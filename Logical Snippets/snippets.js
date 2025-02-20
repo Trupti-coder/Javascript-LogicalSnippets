@@ -291,6 +291,17 @@ console.log(data2);
 
 
 
+// 36 
+
+function getInfo(number){
+    member.name="Anil";
+
+}
+const person1 = {name:'Sarah'};
+getInfo(person);
+console.log(person);
+
+//Anil
 
 
 
