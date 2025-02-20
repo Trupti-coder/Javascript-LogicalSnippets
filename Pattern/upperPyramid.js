@@ -8,3 +8,13 @@ function upperPyramid(n){
 
 }
 upperPyramid(5);
+
+/* output:
+
+    * 
+    *  * 
+   *  *  * 
+  *  *  *  * 
+ *  *  *  *  * 
+
+*/
