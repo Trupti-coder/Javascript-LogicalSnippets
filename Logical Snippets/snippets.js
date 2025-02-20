@@ -255,6 +255,11 @@ console.log(numbers);
 //c:trick question only objects
 //d:number or object
 
+// 30
+console.log(!!null); // False
+console.log(!!""); //false
+console.log(!!1); //true
+
 
 
 
