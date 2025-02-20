@@ -248,6 +248,12 @@ const numbers1=[1,2,3];
 numbers[3]=numbers;
 console.log(numbers);
 
+// 29
+//Everything in javascript is either a....
+//A:primitive or object //ans 
+//B:function or object
+//c:trick question only objects
+//d:number or object
 
 
 
