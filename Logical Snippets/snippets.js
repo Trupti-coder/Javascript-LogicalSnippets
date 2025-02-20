@@ -268,6 +268,11 @@ console.log(setInterval(()=>console.log("hi"),1000));
 //1 2 3 hi hi hi hi hi hi......
 
 
+// 32
+let data1 =3+4+"5";
+console.log(typeof data1); // String
+
+
 
 
 
