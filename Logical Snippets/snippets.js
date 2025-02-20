@@ -313,5 +313,10 @@ const myCar=new Car();
 console.log(myCar.make); //kia
 
 
+// 38
 
+(()=>{
+    let x=(y=10); 
+ })();
+ console.log(typeof x);
 
