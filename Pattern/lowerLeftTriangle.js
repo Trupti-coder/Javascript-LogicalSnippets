@@ -7,3 +7,16 @@ function lowerLeft(n){
 }
 
 lowerLeft(7);
+
+// output:
+
+/*
+
+
+ *  *  *  *  *  *  * 
+ *  *  *  *  *  * 
+ *  *  *  *  * 
+ *  *  *  * 
+ *  *  * 
+ *  * 
+ *                                                       */
