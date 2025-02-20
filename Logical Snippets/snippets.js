@@ -237,5 +237,13 @@ console.log(bird.size); // small
 console.log(bird.data); // undefined     //fun and variable name not work
 
 
+// 27
+
+const numbers=[1,2,3];
+number[9]=11;
+console.log(numbers); // [1,2,3,empty*6,11];
+
+
+
 
 
