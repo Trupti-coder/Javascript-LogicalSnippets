@@ -10,3 +10,10 @@ let myPromise= new Promise((resolve,reject)=>{
         }
     },2000);
 })
+
+// Use the promise
+myPromise.then((message) => {
+    console.log(message); // Handle the resolved case
+  }).catch((error) => {
+    console.error(error); // Handle the rejected case
+  });
