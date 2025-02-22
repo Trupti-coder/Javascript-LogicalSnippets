@@ -12,3 +12,7 @@ function generateRandomString(length){
     }
     return randomString;
 }
+
+// Example usage:
+var randomStr = generateRandomString(10); // Generate a random string of length 10
+console.log(randomStr);
