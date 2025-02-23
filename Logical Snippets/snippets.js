@@ -352,3 +352,8 @@ const key="namee";
 
 confirm.log(key in obj); //true
 console.log("gender" in obj); //false
+
+// 44
+
+console.log(typeof null);
+console.log(null instanceof Object);
