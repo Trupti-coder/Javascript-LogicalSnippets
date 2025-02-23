@@ -11,4 +11,5 @@ const arr=[1,4,undefined,2,"apple","3","a","A",null];
 arr.sort();
 console.log(arr);
 
+// output:[1,2,"3",4,"A","a","apple","null",undefined];
   
