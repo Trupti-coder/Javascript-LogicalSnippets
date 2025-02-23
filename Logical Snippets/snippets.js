@@ -326,3 +326,10 @@ console.log(myCar.make); //kia
  console.log([1,2]+3);//"1,23"
  console.log([1]-1); //0
 
+ // 40 
+
+ const names="Trupti";
+ age=21;
+ console.log(delete names);
+ console.log(delete age);
+
