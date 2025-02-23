@@ -17,7 +17,7 @@ console.log(arr);
 // 3
 
 const arrays=[1, ,3];
-console.log(0 in arr);
-console.log(1 in arr);
-console.log(arr.length);
+console.log(0 in arr); // true
+console.log(1 in arr); // true
+console.log(arr.length); // 3 :  length of the array includes all elements and empty slots.
   
