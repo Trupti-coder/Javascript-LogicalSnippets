@@ -341,3 +341,7 @@ let z=3;
 x=y=z+1;
 console.log(x,y,z); // 4 4 3  the value of z itself is not changed by this operation. It remains 3 because the assignment only affects x and y.
 
+// 42
+console.log(0.1+0.2===0.3);
+console.log((0.1+0.2).toFixed(2)==="0.30");
+
