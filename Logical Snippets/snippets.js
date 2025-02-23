@@ -355,5 +355,5 @@ console.log("gender" in obj); //false
 
 // 44
 
-console.log(typeof null);
-console.log(null instanceof Object);
+console.log(typeof null); // object 
+console.log(null instanceof Object); // false
