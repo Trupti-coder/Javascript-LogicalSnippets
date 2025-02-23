@@ -320,3 +320,9 @@ console.log(myCar.make); //kia
  })();
  console.log(typeof x);
 
+ // 39
+
+ console.log([1,2]+[3,4]);
+ console.log([1,2]+3);
+ console.log([1]-1);
+
