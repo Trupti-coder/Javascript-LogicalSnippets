@@ -322,7 +322,7 @@ console.log(myCar.make); //kia
 
  // 39
 
- console.log([1,2]+[3,4]);
- console.log([1,2]+3);
- console.log([1]-1);
+ console.log([1,2]+[3,4]); // "1,23,4"
+ console.log([1,2]+3);//"1,23"
+ console.log([1]-1); //0
 
