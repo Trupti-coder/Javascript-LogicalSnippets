@@ -350,5 +350,5 @@ console.log((0.1+0.2).toFixed(2)==="0.30"); // true
 const obj={namee:"trupti",age:21};
 const key="namee";
 
-confirm.log(key in obj); 
-console.log("gender" in obj);
+confirm.log(key in obj); //true
+console.log("gender" in obj); //false
