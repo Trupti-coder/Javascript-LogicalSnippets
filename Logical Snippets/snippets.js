@@ -333,3 +333,11 @@ console.log(myCar.make); //kia
  console.log(delete names); // false  Constants in JavaScript cannot be deleted.
  console.log(delete age); // true
 
+// 41
+
+let x=1;
+let y=2;
+let z=3;
+x=y=z+1;
+console.log(x,y,z);
+
