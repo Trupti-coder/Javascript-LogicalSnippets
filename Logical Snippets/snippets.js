@@ -345,3 +345,10 @@ console.log(x,y,z); // 4 4 3  the value of z itself is not changed by this opera
 console.log(0.1+0.2===0.3); // false
 console.log((0.1+0.2).toFixed(2)==="0.30"); // true
 
+// 43
+
+const obj={namee:"trupti",age:21};
+const key="namee";
+
+confirm.log(key in obj); 
+console.log("gender" in obj);
