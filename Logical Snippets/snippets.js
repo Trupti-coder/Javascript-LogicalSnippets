@@ -330,6 +330,6 @@ console.log(myCar.make); //kia
 
  const names="Trupti";
  age=21;
- console.log(delete names);
- console.log(delete age);
+ console.log(delete names); // false  Constants in JavaScript cannot be deleted.
+ console.log(delete age); // true
 
