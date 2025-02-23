@@ -7,3 +7,4 @@ increment();
 increment();
 increment(10);
 increment();
+//output: 1 2 10 3
