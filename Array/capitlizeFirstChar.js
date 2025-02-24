@@ -14,9 +14,14 @@ function capitlizeFirstChar(arr){
                     capitlizedword+=word[j];
                 }
                 
+            }else{
+                capitlizedword+=word[j];
             }
 
         }
+        uppercasedArr.push(capitlizedword);
     }
+
+    return  uppercasedArr;
 
 }
