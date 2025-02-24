@@ -14,3 +14,5 @@ function printZigzagPattern(rows,cols){
     }
     console.log(result);
 }
+//Example usage
+printZigzagPattern(4,4);
