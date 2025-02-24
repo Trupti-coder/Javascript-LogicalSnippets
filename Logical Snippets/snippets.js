@@ -357,3 +357,10 @@ console.log("gender" in obj); //false
 
 console.log(typeof null); // object 
 console.log(null instanceof Object); // false
+
+
+
+
+
+
+
