@@ -18,5 +18,15 @@ function topKFrequent(nums,k){
         buckets[freq].push(Number(key));
     }
 
+    // Step 3: Collect the top k frequent elements from the buckets
+    const result = [];
+    for (let i = buckets.length - 1; i >= 0 && result.length < k; i--) {
+        if (buckets[i] !== undefined) {
+            result.push(...buckets[i]);
+        }
+    }
+
+    return result.slice(0, k);
+
 
 }
