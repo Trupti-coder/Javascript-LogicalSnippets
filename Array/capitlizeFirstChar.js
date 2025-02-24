@@ -1,0 +1,3 @@
+function capitlizeFirstChar(arr){
+
+}
