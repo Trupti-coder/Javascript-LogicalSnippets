@@ -16,8 +16,13 @@ function romanToInteger(roman){
         const currentValue=romanToIntegerMap[roman[i]];
 
         if(currentValue<previousValue){
-            
+            integer-=currentValue;
         }
+        else{
+            integer+=currentValue;
+        }
+        previousValue=currentValue;
     }
+    return integer;
     
 }
