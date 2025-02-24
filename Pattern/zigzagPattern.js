@@ -7,5 +7,10 @@ function printZigzagPattern(rows,cols){
         for(let j=0;j<cols;j++){
             rows.push(currentNumber++);
         }
+        if(i%2!==0){
+            row.reverse();
+        }
+        result+=row.join(' ')+'\n';
     }
+    console.log(result);
 }
