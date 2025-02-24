@@ -1,0 +1,3 @@
+function printZigzagPattern(rows,cols){
+    
+}
