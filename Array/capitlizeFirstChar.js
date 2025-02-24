@@ -25,3 +25,8 @@ function capitlizeFirstChar(arr){
     return  uppercasedArr;
 
 }
+
+let words = ["hello", "world", "this", "is", "javascript"];
+let capitalizedWords = capitalizeFirstChar(words);
+
+console.log(capitalizedWords); // Output: ["Hello", "World", "This", "Is", "Javascript"]
