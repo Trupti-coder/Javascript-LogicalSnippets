@@ -29,8 +29,8 @@ return longestWord;
 
 }
 
-
 // Example usage
 let sentence = "This is a sample sentence with some reallylongwordinit.";
 console.log(findLongestWord(sentence)); // Outputs: "reallylongwordinit"
+
 
