@@ -30,3 +30,8 @@ function topKFrequent(nums,k){
 
 
 }
+
+// Example usage
+const nums = [1, 1, 1, 2, 2, 3];
+const k = 2;
+console.log(topKFrequent(nums, k)); // Outputs: [1, 2]
