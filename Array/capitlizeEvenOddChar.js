@@ -29,3 +29,8 @@ function capitlizeEvenOddChar(arr){
     return capitlizedArr;
 
 }
+
+//Example usage
+
+let arr = ["hello", "world", "this", "is", "javascript"];
+console.log(capitlizeEvenOddChar(arr));
