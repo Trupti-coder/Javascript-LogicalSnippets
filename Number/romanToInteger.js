@@ -26,3 +26,7 @@ function romanToInteger(roman){
     return integer;
     
 }
+// Example usage
+console.log(romanToInt('IX')); // Outputs: 9
+console.log(romanToInt('LVIII')); // Outputs: 58
+console.log(romanToInt('MCMXCIV')); // Outputs: 1994
