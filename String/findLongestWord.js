@@ -17,7 +17,20 @@ function findLongestWord(sentence){
         else{
             word+=sentence[i];
         }
+    }
+            // Find the longest word
+    for (let i = 0; i < words.length; i++){
+        if (words[i].length > longestWord.length) {
+            longestWord = words[i];
 
     }
+}
+return longestWord;
 
 }
+
+
+// Example usage
+let sentence = "This is a sample sentence with some reallylongwordinit.";
+console.log(findLongestWord(sentence)); // Outputs: "reallylongwordinit"
+
