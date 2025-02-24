@@ -10,9 +10,22 @@ function capitlizeEvenOddChar(arr){
                 if(charCode>=97 && charCode<=122){
                     capitlizedChar+=String.fromCharCode(charCode-32);
                 }
+                else{
+                    capitlizedChar+=word[j];
+                }
 
             }
+            else{
+                if(charCode>=65 && charCode<=90){
+                    capitlizedChar+=String.fromCharCode(charCode+32);
+                }
+                else{
+                    capitlizedChar+=word[j];
+                }
+            }
         }
+        capitlizedArr.push(capitlizedChar);
     }
+    return capitlizedArr;
 
 }
