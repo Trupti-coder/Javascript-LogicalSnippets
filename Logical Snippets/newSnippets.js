@@ -49,3 +49,8 @@ function getAge(...args) {
   /* eval evaluates code that's passed as a string. If it's an expression,
    like in this case, it evaluates the expression.
     The expression is 10 * 10 + 5. This returns the number 105. */
+
+// 5
+
+const obj = { 1: 'a', 2: 'b', 3: 'c' };
+const set = new Set([1, 2, 3, 4, 5]);
