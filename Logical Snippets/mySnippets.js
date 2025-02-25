@@ -91,4 +91,11 @@ console.log(freddie.colorChange("orange"));  // TypeError
    the function cannot be called upon it. A TypeError is thrown. */
 
 
+   // 7
+
+   let greeting;
+   greetign={}; // typo
+   console.log(greeting);
+
+
 
