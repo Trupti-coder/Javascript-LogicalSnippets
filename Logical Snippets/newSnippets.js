@@ -29,6 +29,16 @@ function getAge(...args) {
   }
   
   getAge(21);
-  
+
    // output : object  The rest parameter (...args) lets us "collect" all remaining arguments into an array.
   //  An array is an object, so typeof args returns "object"
+
+  // 3
+
+  function getAge() {
+    'use strict';
+    age = 21;
+    console.log(age);
+  }
+  
+  getAge(); // output : referance Error   
