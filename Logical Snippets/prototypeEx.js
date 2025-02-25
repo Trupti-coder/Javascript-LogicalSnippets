@@ -12,7 +12,7 @@ Person.getFullName=function(){
     return `${this.firstName} ${this.lastName}`
 }
 
-console.log(member.getFullName()); // TypeError
+console.log(member.getFullName());  // TypeError
 
 /* The member object doesn't have a getFullName method 
 because it was added to the Person constructor function,
@@ -20,7 +20,7 @@ because it was added to the Person constructor function,
   JavaScript doesn't find that method and throws an error.
 
 To fix this, you need to add the getFullName method to the prototype of the Person function 
-so that all objects created using Person will have access to it: */
+so that all objects created using Person will have access to it: 
 
 function Person(firstName, lastName) {
     this.firstName = firstName;
