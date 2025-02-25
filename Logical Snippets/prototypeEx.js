@@ -5,3 +5,7 @@ function Person(firstName,lastName){
 }
 
 const member=new Person('Lydia','Helie');
+
+Person.getFullName=function(){
+    return `${this.firstName} ${this.lastName}`
+}
