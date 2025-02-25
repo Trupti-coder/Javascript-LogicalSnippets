@@ -22,3 +22,16 @@ because it was added to the Person constructor function,
 To fix this, you need to add the getFullName method to the prototype of the Person function 
 so that all objects created using Person will have access to it: */
 
+function Person(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+  
+  Person.prototype.getFullName = function() {
+    return `${this.firstName} ${this.lastName}`;
+  };
+  
+  const member = new Person('Lydia', 'Hallie');
+  
+  console.log(member.getFullName()); // Output: Lydia Hallie
+  
