@@ -44,3 +44,12 @@ D: All of them are valid
 output: A: mouse.bird.size is not valid  mouse does not a key called bird thats why mouse.bird is undefined and then undefined.size isen't valid
 
 */
+
+// 4
+
+let c={greeting:'Hey'};
+let d;
+d=c;
+c.greeting="Hello";
+console.log(d.greeting); 
+
