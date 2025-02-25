@@ -51,5 +51,15 @@ let c={greeting:'Hey'};
 let d;
 d=c;
 c.greeting="Hello";
-console.log(d.greeting); 
+console.log(d.greeting); // Hello  In JavaScript, all objects interact by reference when setting them equal to each other
+
+// 5
+
+let a=3;
+let b=new Number(3);
+let c=3;
+
+console.log(a==b);
+console.log(a===b);
+console.log(b===c);
 
