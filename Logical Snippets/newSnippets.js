@@ -78,3 +78,13 @@ for (let i = 1; i < 5; i++) {
   console.log(name.giveLydiaPizza())
 
   // output : Just give Lydis pizza already 
+
+  // 8
+  const a = {};
+const b = { key: 'b' };
+const c = { key: 'c' };
+
+a[b] = 123;
+a[c] = 456;
+
+console.log(a[b]); // 456
