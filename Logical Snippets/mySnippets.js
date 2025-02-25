@@ -68,5 +68,19 @@ console.log(b===c); // false
 However, when we use the === operator (Strict equality operator), 
 both value and type should be the same. It's not: new Number() is not a number, it's an object. Both return false. */
 
+// 6
+
+class Chameleon{
+    static colorChange(newColor){
+        this.newColor=newColor;
+        return this.newColor;
+    }
+
+    cunstructor({newColor='green'}={}){
+        this.newColor=newColor;
+ 
+    }
+}
+
 
 
