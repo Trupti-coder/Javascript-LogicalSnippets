@@ -67,3 +67,12 @@ for (let i = 1; i < 5; i++) {
     console.log(i);
   }
  // output: 1 2 4  The continue statement skips an iteration if a certain condition returns true..
+
+ // 7
+ String.prototype.giveLydiaPizza = () => {
+    return 'Just give Lydia pizza already!';
+  };
+  
+  const name = 'Lydia';
+  
+  console.log(name.giveLydiaPizza())
