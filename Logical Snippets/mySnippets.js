@@ -6,5 +6,19 @@ function sayHi(){
     var name='Lydia';
     let age=21
 }
-sayHi();
+sayHi(); //output undefined and ReferanceError
 
+
+// 2
+
+const shape={
+    radius:10,
+    diameter(){
+        return this.radius * 2;
+
+    },
+    perimeter: ()=>2*Math.PI * this.radius,
+};
+
+console.log(shape.diameter());
+console.log(shape.perimeter());
