@@ -76,3 +76,5 @@ for (let i = 1; i < 5; i++) {
   const name = 'Lydia';
   
   console.log(name.giveLydiaPizza())
+
+  // output : Just give Lydis pizza already 
