@@ -95,7 +95,19 @@ console.log(freddie.colorChange("orange"));  // TypeError
 
    let greeting;
    greetign={}; // typo
-   console.log(greeting);
+   console.log(greeting); // {}
+
+   // 8
+
+   function bark(){
+    console.log("Woof !");
+
+   }
+   bark.animal="dog"; 
+
+   
+
+
 
 
 
