@@ -34,4 +34,7 @@ function Person(firstName, lastName) {
   const member = new Person('Lydia', 'Hallie');
   
   console.log(member.getFullName()); // Output: Lydia Hallie
+
+ /*  In this corrected version, getFullName is added to the prototype of Person,
+   making it available to all instances of Person, including member. */
   
