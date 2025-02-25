@@ -1,3 +1,5 @@
+// 1
+
 function checkAge(data){
     if(data==={  age : 18 }){
         console.log('You are an adult..!')
@@ -19,3 +21,14 @@ checkAge({age:18}); // Hmm...you dont have an age i guess
 The two objects that we are comparing don't have that: the object we passed as a parameter refers to a different location in memory than the object we used in order to check equality.
 
 This is why both { age: 18 } === { age: 18 } and { age: 18 } == { age: 18 } return false. */
+
+// 2
+
+function getAge(...args) {
+    console.log(typeof args);
+  }
+  
+  getAge(21);
+  
+   // output : object  The rest parameter (...args) lets us "collect" all remaining arguments into an array.
+  //  An array is an object, so typeof args returns "object"
