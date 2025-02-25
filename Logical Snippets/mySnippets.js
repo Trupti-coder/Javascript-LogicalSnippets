@@ -41,6 +41,6 @@ B: mouse[bird.size] is not valid
 C: mouse[bird["size"]] is not valid
 D: All of them are valid 
 
-output: A: mouse.bird.size is not valid
+output: A: mouse.bird.size is not valid  mouse does not a key called bird thats why mouse.bird is undefined and then undefined.size isen't valid
 
 */
