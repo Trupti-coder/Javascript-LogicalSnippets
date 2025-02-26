@@ -46,3 +46,9 @@ Function constructors, like new Number and new Boolean are truthy.
 
 console.log(typeof typeof 1);
 // "string" bcoz typeof 1 is "number" typeof "number" returns "string"
+
+// 5
+
+const numbers=[1,2,3];
+numbers[10]=11;
+console.log(numbers);
