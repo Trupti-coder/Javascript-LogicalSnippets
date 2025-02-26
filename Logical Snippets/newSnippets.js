@@ -59,7 +59,7 @@ obj.hasOwnProperty('1'); // true
 obj.hasOwnProperty(1); // true
 set.has('1'); // false
 set.has(1); // true
-
+ 
 // 6
 
 for (let i = 1; i < 5; i++) {
