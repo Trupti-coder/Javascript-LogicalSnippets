@@ -56,3 +56,20 @@ console.log(numbers); //  When you set a value to an element in an array that ex
 //  These actually have the value of undefined,
 //  but you will see something like: 
 // [1, 2, 3, empty x 7, 11]
+
+
+// 6
+(()=>{
+    let x,y;
+    try {
+        throw new Error();
+    }
+    catch(x){
+        (x=1),(y=2);
+        console.log(x);
+    }
+    console.log(x);
+    console.log(y);
+})();
+// output: 1 undefined 2
+
