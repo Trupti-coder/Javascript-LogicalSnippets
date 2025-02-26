@@ -41,3 +41,8 @@ false
 Function constructors, like new Number and new Boolean are truthy.
 
  */
+
+// 4
+
+console.log(typeof typeof 1);
+// "string" bcoz typeof 1 is "number" typeof "number" returns "string"
