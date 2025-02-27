@@ -201,6 +201,12 @@ With the catch statement, we can specify what to do if an exception is thrown in
 // 19
 const set = new Set([1, 1, 2, 3, 4]);
 
-console.log(set);
+console.log(set); //output:  {1, 2, 3, 4}
+
+/* The Set object is a collection of unique values: a value can only occur once in a set.
+
+We passed the iterable [1, 1, 2, 3, 4] with a duplicate value 1.
+ Since we cannot have two of the same values in a set, one of them is removed.
+  This results in {1, 2, 3, 4}. */
 
 
