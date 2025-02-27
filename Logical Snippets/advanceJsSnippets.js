@@ -95,3 +95,8 @@ What differentiates a primitive from an object is that primitives do not have an
     },
     [1,2],
   ); // output : [1, 2, 0, 1, 2, 3]
+
+  // 9
+  !!null; 
+  !!'';
+  !!1;
