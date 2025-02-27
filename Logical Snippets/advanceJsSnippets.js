@@ -108,3 +108,10 @@ What differentiates a primitive from an object is that primitives do not have an
 // 11
 [...'lydia'];
 //output:["L", "y", "d", "i", "a"]  A string is an iterable. The spread operator maps every character of an iterable to one element
+
+// 12
+let person = { name: 'Lydia' };
+const members = [person];
+person = null;
+
+console.log(members);
