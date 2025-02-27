@@ -105,3 +105,6 @@ What differentiates a primitive from an object is that primitives do not have an
   //What does the setInterval method return in the browser
   setInterval(()=>console.log("Hi"),1000); //output: return A unique Id
 
+// 11
+[...'lydia'];
+//output:["L", "y", "d", "i", "a"]  A string is an iterable. The spread operator maps every character of an iterable to one element
