@@ -97,6 +97,6 @@ What differentiates a primitive from an object is that primitives do not have an
   ); // output : [1, 2, 0, 1, 2, 3]
 
   // 9
-  !!null; 
-  !!'';
-  !!1;
+  !!null; //fales : null is falsy.!null returns true. !true returns false.
+  !!'';//false : "" is falsy. !"" returns true. !true returns false.
+  !!1;//true : 1 is truthy. !1 returns false. !false returns true.
