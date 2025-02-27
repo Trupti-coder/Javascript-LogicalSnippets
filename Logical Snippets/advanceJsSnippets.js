@@ -190,4 +190,6 @@ However,
   
   sayHi();
 
+  // output : Oh no an error: Hello world!
+
 
