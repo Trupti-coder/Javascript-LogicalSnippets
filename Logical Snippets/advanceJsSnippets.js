@@ -198,4 +198,9 @@ However,
 With the catch statement, we can specify what to do if an exception is thrown in the try block. An exception is thrown: the string 'Hello world!'. e is now equal to that string, which we log. This results in 'Oh an error: Hello world!'.
         */
 
+// 19
+const set = new Set([1, 1, 2, 3, 4]);
+
+console.log(set);
+
 
