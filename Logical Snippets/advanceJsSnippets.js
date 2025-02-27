@@ -157,5 +157,20 @@ for(const item in person){
 
 However,
  we don’t return a value.
-  When we don’t return a value from the function, the function returns undefined. For every element in the array, the function block gets called, so for each element we return undefined. 
+  When we don’t return a value from the function, the function returns undefined. For every element in the array, the function block gets called, so for each element we return undefined. */
+
+  // 17
+
+  function getInfo(member, year) {
+    member.name = 'Lydia';
+    year = '1998';
+  }
+  
+  const person = { name: 'Sarah' };
+  const birthYear = '1997';
+  
+  getInfo(person, birthYear);
+  
+  console.log(person, birthYear); // output:{ name: "Lydia" }, "1997"
+
 
