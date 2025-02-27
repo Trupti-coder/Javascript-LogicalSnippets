@@ -85,4 +85,13 @@ What differentiates a primitive from an object is that primitives do not have an
  however, you'll note that 'foo'.toUpperCase() evaluates to 'FOO' and does not result in a TypeError. 
  This is because when you try to access a property or method on a primitive like a string,
   JavaScript will implicitly wrap the primitive type using one of the wrapper classes, i.e. String,
-   and then immediately discard the wrapper after the expression evaluates. All primitives except for null and undefined exhibit this behavior
+   and then immediately discard the wrapper after the expression evaluates. All primitives except for null and undefined exhibit this behavior */
+
+   // 8
+
+  [[0,1],[2,3]].reduce(
+    (acc,cur)=>{
+        return acc.concat(cur);
+    },
+    [1,2],
+  ); // output : [1, 2, 0, 1, 2, 3]
