@@ -114,4 +114,14 @@ let person = { name: 'Lydia' };
 const members = [person];
 person = null;
 
-console.log(members);
+console.log(members); // [{ name: "Lydia" }]
+
+// 13
+
+const person={
+    name:'Lydia',
+    age:21
+};
+for(const item in person){
+    console.log(item);
+}
