@@ -100,3 +100,8 @@ What differentiates a primitive from an object is that primitives do not have an
   !!null; //fales : null is falsy.!null returns true. !true returns false.
   !!'';//false : "" is falsy. !"" returns true. !true returns false.
   !!1;//true : 1 is truthy. !1 returns false. !false returns true.
+
+  // 10
+  //What does the setInterval method return in the browser
+  setInterval(()=>console.log("Hi"),1000); //output: return A unique Id
+
