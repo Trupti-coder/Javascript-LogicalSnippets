@@ -395,4 +395,21 @@ console.log(one, two, three); // {} "" []
 
 ([] || 0 || ""): the empty array[] is a truthy value. This is the first truthy value, which gets returned. three is equal to [].   */
 
+// 36 
+
+const myPromise = () => Promise.resolve('I have resolved!');
+
+function firstFunction() {
+  myPromise().then(res => console.log(res));
+  console.log('second');
+}
+
+async function secondFunction() {
+  console.log(await myPromise());
+  console.log('second');
+}
+
+firstFunction();
+secondFunction();
+
 
