@@ -312,4 +312,16 @@ const giveLydiaChocolate = () =>
 console.log(giveLydiaPizza.prototype);
 console.log(giveLydiaChocolate.prototype);
 
-// output: { constructor: ...} undefined 
+// output: { constructor: ...} undefined
+
+// 29
+
+const person = {
+  name: 'Lydia',
+  age: 21,
+};
+
+for (const [x, y] of Object.entries(person)) {
+  console.log(x, y);
+} // output: name Lydia and age 21
+
