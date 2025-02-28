@@ -235,3 +235,17 @@ console.log(person); // { name: "Lydia", age: 21 }
 After that, you assign the value 'Amsterdam' to the variable city. Note that this does not add a city property to the person object.
 
 When you log the person object, it remains:   */
+
+// 22
+
+function checkAge(age) {
+  if (age < 18) {
+    const message = "Sorry, you're too young.";
+  } else {
+    const message = "Yay! You're old enough!";
+  }
+
+  return message;
+}
+
+console.log(checkAge(21)); // ReferenceError
