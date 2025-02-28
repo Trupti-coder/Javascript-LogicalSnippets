@@ -229,4 +229,9 @@ const person = {
 let city = person.city;
 city = 'Amsterdam';
 
-console.log(person); // { name: "Lydia", age: 21 } 
+console.log(person); // { name: "Lydia", age: 21 }
+/* You're creating an object called person with properties name and age. You then try to assign person.city to a new variable city, but since city is not defined in the person object, the new variable city will be undefined.
+
+After that, you assign the value 'Amsterdam' to the variable city. Note that this does not add a city property to the person object.
+
+When you log the person object, it remains:   */
