@@ -213,4 +213,8 @@ We passed the iterable [1, 1, 2, 3, 4] with a duplicate value 1.
 
   // 20
 
+  function sayHi(name) {
+    return `Hi there, ${name}`;
+  }
   
+  console.log(sayHi());
