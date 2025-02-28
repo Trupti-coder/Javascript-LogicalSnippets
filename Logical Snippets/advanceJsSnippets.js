@@ -268,3 +268,12 @@ console.log('I want pizza'[0]);// "I"
 you can use bracket notation. The first character in the string has index 0,
  and so on. In this case, we want to get the element with index 0,
  the character "I', which gets logged.   */
+
+ // 24
+
+ function sum(num1, num2 = num1) {
+  console.log(num1 + num2);
+}
+
+sum(10); // 20
+
