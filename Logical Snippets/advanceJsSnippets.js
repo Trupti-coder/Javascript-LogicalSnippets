@@ -411,5 +411,6 @@ async function secondFunction() {
 
 firstFunction();
 secondFunction();
+// output:  second, I have resolved! and I have resolved!, second
 
 
