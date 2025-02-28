@@ -283,3 +283,13 @@ sum(10); // 20
    it means that the value for num2 is not passed, and the value of num1 is equal to the passed value 10 in this case.
     The default value of num2 is the value of num1, which is 10.
  num1 + num2 returns 20.   */
+
+ // 25
+ class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const member = new Person('John');
+console.log(typeof member); // object
