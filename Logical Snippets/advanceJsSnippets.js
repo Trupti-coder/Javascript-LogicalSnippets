@@ -293,3 +293,9 @@ sum(10); // 20
 
 const member = new Person('John');
 console.log(typeof member); // object
+
+// 26
+
+let newList = [1, 2, 3].push(4);
+
+console.log(newList.push(5)); // Error
