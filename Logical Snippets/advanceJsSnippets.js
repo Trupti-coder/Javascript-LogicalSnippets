@@ -436,4 +436,18 @@ resolve, either a promise or a non-promise. The method itself returns a promise 
 In this case, we just passed the numerical value 5.
  It returns a resolved promise with the value 5.  */
 
+ // 39 
+
+ function compareMembers(person1, person2 = person) {
+  if (person1 !== person2) {
+    console.log('Not the same!');
+  } else {
+    console.log('They are the same!');
+  }
+}
+
+const person = { name: 'Lydia' };
+
+compareMembers(person); // They are the same!
+
 
