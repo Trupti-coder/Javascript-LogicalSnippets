@@ -358,4 +358,8 @@ console.log(getUser(user)) // output: SyntaxError
 
 
 
+// 33
+const names='Lydia';
+console.log(names()); // output: TypoError
+
 
