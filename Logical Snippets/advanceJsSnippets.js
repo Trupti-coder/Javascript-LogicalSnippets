@@ -249,3 +249,9 @@ function checkAge(age) {
 }
 
 console.log(checkAge(21)); // ReferenceError
+
+/* It looks like there's a small issue with your code.
+ The variable message is defined inside the if and else blocks,
+  so it is scoped to those blocks and not accessible outside of them.
+  As a result, when you try to return message,
+ it throws an error because message is not defined outside the blocks.  */
