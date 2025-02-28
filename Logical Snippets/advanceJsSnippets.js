@@ -379,4 +379,12 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`; // outpu
 
 "" is a falsy value. If the left-hand value is falsy, nothing gets returned. n't doesn't get returned. */
 
+// 35
+
+const one = false || {} || null;
+const two = null || false || '';
+const three = [] || 0 || true;
+
+console.log(one, two, three); // {} "" []
+
 
