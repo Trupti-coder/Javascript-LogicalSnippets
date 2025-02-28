@@ -261,3 +261,6 @@ console.log(checkAge(21)); // ReferenceError
  function getName(name) {
   const hasName = //
 } //  !!name
+
+// 24
+console.log('I want pizza'[0]);// "I"
