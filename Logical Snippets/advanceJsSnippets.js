@@ -450,4 +450,18 @@ const person = { name: 'Lydia' };
 
 compareMembers(person); // They are the same!
 
+// 40  
+
+const colorConfig = {
+  red: true,
+  blue: false,
+  green: true,
+  black: true,
+  yellow: false,
+};
+
+const colors = ['pink', 'red', 'blue'];
+
+console.log(colorConfig.colors[1]);
+
 
