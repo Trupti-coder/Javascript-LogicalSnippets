@@ -299,3 +299,17 @@ console.log(typeof member); // object
 let newList = [1, 2, 3].push(4);
 
 console.log(newList.push(5)); // Error
+
+// 28
+
+function giveLydiaPizza() {
+  return 'Here is pizza!';
+}
+
+const giveLydiaChocolate = () =>
+  "Here's chocolate... now go hit the gym already.";
+
+console.log(giveLydiaPizza.prototype);
+console.log(giveLydiaChocolate.prototype);
+
+// output: { constructor: ...} undefined 
