@@ -264,3 +264,7 @@ console.log(checkAge(21)); // ReferenceError
 
 // 24
 console.log('I want pizza'[0]);// "I"
+/* In order to get a character at a specific index of a string, 
+you can use bracket notation. The first character in the string has index 0,
+ and so on. In this case, we want to get the element with index 0,
+ the character "I', which gets logged.   */
