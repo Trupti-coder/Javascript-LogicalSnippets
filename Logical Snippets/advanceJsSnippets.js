@@ -373,7 +373,7 @@ SyntaxErrors get thrown when you've written something that isn't valid JavaScrip
 // 🎉✨ This is my 100th question! ✨🎉
 
 const output = `${[] && 'Im'}possible!
-You should${'' && `n't`} see a therapist after so much JavaScript lol`;
+You should${'' && `n't`} see a therapist after so much JavaScript lol`; // output : Impossible! You should see a therapist after so much JavaScript lol
 
 /*[] is a truthy value. With the && operator, the right-hand value will be returned if the left-hand value is a truthy value. In this case, the left-hand value [] is a truthy value, so "Im' gets returned.
 
