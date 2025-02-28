@@ -423,6 +423,6 @@ set.add({ name: 'Lydia' });
 
 for (let item of set) {
   console.log(item + 2);
-}
+} // output: 3, Lydia2, [object Object]2
 
 
