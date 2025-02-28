@@ -219,3 +219,14 @@ We passed the iterable [1, 1, 2, 3, 4] with a duplicate value 1.
   
   console.log(sayHi());//ReferanceError
 
+// 21
+
+const person = {
+  name: 'Lydia',
+  age: 21,
+};
+
+let city = person.city;
+city = 'Amsterdam';
+
+console.log(person);
