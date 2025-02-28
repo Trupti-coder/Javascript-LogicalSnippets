@@ -229,4 +229,4 @@ const person = {
 let city = person.city;
 city = 'Amsterdam';
 
-console.log(person);
+console.log(person); // { name: "Lydia", age: 21 } 
