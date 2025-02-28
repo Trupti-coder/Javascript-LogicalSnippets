@@ -325,3 +325,17 @@ for (const [x, y] of Object.entries(person)) {
   console.log(x, y);
 } // output: name Lydia and age 21
 
+//30
+function getItems(fruitList, ...args, favoriteFruit) {
+  return [...fruitList, ...args, favoriteFruit]
+}
+
+getItems(["banana", "apple"], "pear", "orange")
+
+// output: SyntaxError
+
+// 31
+
+
+
+
