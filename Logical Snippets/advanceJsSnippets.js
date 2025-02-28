@@ -255,3 +255,9 @@ console.log(checkAge(21)); // ReferenceError
   so it is scoped to those blocks and not accessible outside of them.
   As a result, when you try to return message,
  it throws an error because message is not defined outside the blocks.  */
+
+ // 23
+
+ function getName(name) {
+  const hasName = //
+} //  !!name
