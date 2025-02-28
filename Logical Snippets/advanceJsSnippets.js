@@ -413,4 +413,16 @@ firstFunction();
 secondFunction();
 // output:  second, I have resolved! and I have resolved!, second
 
+// 37
+
+const set = new Set();
+
+set.add(1);
+set.add('Lydia');
+set.add({ name: 'Lydia' });
+
+for (let item of set) {
+  console.log(item + 2);
+}
+
 
