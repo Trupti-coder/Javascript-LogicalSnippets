@@ -425,4 +425,11 @@ for (let item of set) {
   console.log(item + 2);
 } // output: 3, Lydia2, [object Object]2
 
+// 38 
+
+Promise.resolve(5);
+// output:  Promise {<fulfilled>: 5}
+
+/*  */
+
 
