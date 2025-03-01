@@ -17,3 +17,7 @@ function permute(str){
     generatePermutation("",str);
     return result;
 }
+
+const input = "abc";
+const output = permute(input);
+console.log(output); // Output: ["abc", "acb", "bac", "bca", "cab", "cba"]
