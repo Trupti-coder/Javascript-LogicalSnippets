@@ -23,6 +23,11 @@ function groupAnagrams(words){
     for(let i=0;i<words.length;i++){
         const word=words[i];
         const sorted=sortedWord(word);
+
+        if(!anagrams[sorted]){
+            anagrams[sorted]=[];
+        }
+        anagrams[sorted].push(word);
     }
 
 
