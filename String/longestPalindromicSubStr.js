@@ -18,6 +18,19 @@ function longestPalindromicSubString(str){
         }
     }
 
-    
+    for(let k=3;k<=n;k++){
+        for(let i=0;i<n-j+1;i++){
+            let j=i+k-1;
+
+            if(table[i+1[j-1]&& str[i]===str[j]]){
+                table[i][j]=true;
+
+                if(k>maxLength){
+                    start=i;
+                    maxLength=k;
+                }
+            }
+        }
+    }
 
 }
