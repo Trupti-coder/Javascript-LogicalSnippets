@@ -17,5 +17,13 @@ function groupAnagrams(words){
 
     }
 
+    const anagrams={};
+    const result=[];
+
+    for(let i=0;i<words.length;i++){
+        const word=words[i];
+        const sorted=sortedWord(word);
+    }
+
 
 }
