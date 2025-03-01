@@ -33,4 +33,10 @@ function longestPalindromicSubString(str){
         }
     }
 
+  return str.substring(start, start + maxLength);
 }
+
+
+const input = "babad";
+const output = longestPalindromicSubstring(input);
+console.log(output); // Output: "bab" or "aba"
