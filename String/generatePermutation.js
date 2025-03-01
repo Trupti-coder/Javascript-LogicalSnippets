@@ -14,4 +14,6 @@ function permute(str){
         }
 
     }
+    generatePermutation("",str);
+    return result;
 }
