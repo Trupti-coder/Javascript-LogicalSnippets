@@ -39,3 +39,8 @@ function groupAnagrams(words){
     return result;
 
 }
+
+// Example usage
+const input = ["eat", "tea", "tan", "ate", "nat", "bat"];
+const output = groupAnagrams(input);
+console.log(output);
