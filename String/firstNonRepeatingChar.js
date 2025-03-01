@@ -11,6 +11,8 @@ function firstNonRepeatingChar(str){
     }
 
     for(let i=0;i<str.length;i++){
-        
+        if(frequency[str[i]]===1){
+            return str[i];
+        }
     }
 }
