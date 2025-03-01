@@ -15,4 +15,9 @@ function firstNonRepeatingChar(str){
             return str[i];
         }
     }
+    return null;
 }
+
+const input = "leetcode";
+const output = firstNonRepeatingChar(input);
+console.log(output); // Output: 'l'
