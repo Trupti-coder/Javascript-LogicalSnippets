@@ -12,4 +12,9 @@ function findAllSubSequences(str){
          generateSubSequences(current,index+1);
     }
     generateSubSequences("",0);
+    return result;
 }
+
+const input = "abc";
+const output = findSubsequences(input);
+console.log(output); // Output: ["a", "b", "c", "ab", "ac", "bc", "abc"]
