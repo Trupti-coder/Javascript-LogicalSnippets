@@ -8,6 +8,8 @@ function findAllSubSequences(str){
             }
             return;
         }
-
+         generateSubSequences(current+str[index],index+1);
+         generateSubSequences(current,index+1);
     }
+    generateSubSequences("",0);
 }
