@@ -30,5 +30,12 @@ function groupAnagrams(words){
         anagrams[sorted].push(word);
     }
 
+    for(let key in anagrams){
+        if(anagrams.hasOwnProperty(key)){
+            result.push(anagrams[key]);
+        }
+    }
+
+    return result;
 
 }
