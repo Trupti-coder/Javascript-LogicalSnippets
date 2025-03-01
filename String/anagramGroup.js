@@ -43,4 +43,4 @@ function groupAnagrams(words){
 // Example usage
 const input = ["eat", "tea", "tan", "ate", "nat", "bat"];
 const output = groupAnagrams(input);
-console.log(output);
+console.log(output); // [ [ 'eat', 'tea', 'ate' ], [ 'tan', 'nat' ], [ 'bat' ] ]
