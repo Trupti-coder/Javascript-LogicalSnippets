@@ -1,5 +1,6 @@
 function firstNonRepeatingChar(str){
-    let frequency={};
+    let frequency={};            // Object to store frequency of characters
+    
     for(let i=0;i<str.length;i++){
         let char=str[i];
         if(frequency[char]){
