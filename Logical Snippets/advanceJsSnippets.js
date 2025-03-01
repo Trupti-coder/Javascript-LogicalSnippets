@@ -464,4 +464,8 @@ const colors = ['pink', 'red', 'blue'];
 
 console.log(colorConfig.colors[1]);
 
+// 41
+JSON.parse();
+//output: Parses JSON to a JavaScript value
+
 
