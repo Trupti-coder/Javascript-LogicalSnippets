@@ -20,3 +20,6 @@ function isPrime(num){
     }
     return sum;
 }
+
+// Example usage:
+console.log(sumOfPrimes(10)); // Output: 17
