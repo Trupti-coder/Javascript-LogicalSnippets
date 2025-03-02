@@ -20,3 +20,7 @@ function isIsomorphic(str1,str2){
 
     return true;
 }
+
+// Example usage:
+console.log(isIsomorphic("egg", "add")); // Output: true
+console.log(isIsomorphic("foo", "bar")); // Output: false
