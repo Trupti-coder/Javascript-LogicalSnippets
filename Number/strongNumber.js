@@ -20,3 +20,8 @@ function isStrongNumber(num){
 
     return sum===num;
 }
+
+
+// Example usage:
+console.log(isStrongNumber(145)); // Output: true
+console.log(isStrongNumber(123)); // Output: false
