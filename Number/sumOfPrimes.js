@@ -11,6 +11,12 @@ function isPrime(num){
     }
 
     function sumOfPrimes(N){
-        
+        let sum=0;
+        for(let i=0;i<=N;i++){
+            if(isPrime(i)){
+                sum+=i;
+            }
+        }
     }
+    return sum;
 }
