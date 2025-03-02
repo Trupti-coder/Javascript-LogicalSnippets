@@ -12,5 +12,11 @@ function isIsomorphic(str1,str2){
 
         if(!mapStr1[charStr1]) mapStr1[charStr1]=charStr2;
         if(!mapStr2[charStr2]) mapStr2[charStr2]=charStr1;
+
+        if(mapStr1[charStr1]!==charStr2 || mapStr2[charStr2]!==charStr1){
+            return false;
+        }
     }
+
+    return true;
 }
