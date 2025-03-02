@@ -4,4 +4,9 @@ function factorial(n){
         result*=i;
     }
     return result;
+
+}
+
+function isStrongNumber(num){
+    
 }
