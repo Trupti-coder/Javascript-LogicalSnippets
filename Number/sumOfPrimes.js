@@ -9,4 +9,8 @@ function isPrime(num){
         }
         return true;
     }
+
+    function sumOfPrimes(N){
+        
+    }
 }
