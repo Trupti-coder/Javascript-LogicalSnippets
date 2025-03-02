@@ -11,4 +11,8 @@ function findNthDigit(number,position){
             break;
         }
     }
+
+    return digit;
 }
+// Example usage:
+console.log(findNthDigit(123456789, 4)); // Output: 4
