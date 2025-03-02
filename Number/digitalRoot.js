@@ -1,5 +1,5 @@
 function digitalRoot(num){
-    while(num>=0){
+    while(num>=10){
         let sum=0;
         while(num>0){
             let digit=num%10;
@@ -7,7 +7,9 @@ function digitalRoot(num){
             num=Math.floor(num/10);
 
         }
-        num=sum,;
+        num=sum;
     }
     return num;
 }
+// Example usage:
+console.log(digitalRoot(9875)); //output:2;
