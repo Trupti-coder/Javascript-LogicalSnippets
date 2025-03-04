@@ -11,5 +11,9 @@ function findSmallestPalindrome(N){
 }
 
 function findLargestPalindrome(N){
-    
+    let num=Math.pow(10,N)-1;
+    while(!isPalindrome(num)){
+        num--;
+    }
+    return num;
 }
