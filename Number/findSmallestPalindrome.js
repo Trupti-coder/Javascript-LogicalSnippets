@@ -28,3 +28,7 @@ function isPalindrome(){
     }
     return true;
 }
+
+let N = 3;
+console.log("Smallest:", findSmallestPalindrome(N)); // Smallest: 101
+console.log("Largest:", findLargestPalindrome(N)); // Largest: 999
