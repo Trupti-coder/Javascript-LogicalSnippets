@@ -9,3 +9,7 @@ function findSmallestPalindrome(N){
     }
     return num;
 }
+
+function findLargestPalindrome(N){
+    
+}
