@@ -17,3 +17,7 @@ function findLargestPalindrome(N){
     }
     return num;
 }
+
+function isPalindrome(){
+    
+}
