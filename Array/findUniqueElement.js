@@ -21,3 +21,8 @@ function findUniqueElement(arr){
 
     return [num1, num2];
 }
+
+// Example usage:
+let inputArray = [4, 1, 2, 1, 2, 3];
+let result = findUniqueElements(inputArray);
+console.log(result); // Output: [3, 4]
