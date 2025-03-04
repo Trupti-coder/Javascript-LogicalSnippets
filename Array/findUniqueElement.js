@@ -9,4 +9,15 @@ function findUniqueElement(arr){
       while ((xor & setBit) === 0) {
           setBit <<= 1;
       }
+
+      let num1 = 0, num2 = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] & setBit) {
+            num1 ^= arr[i];
+        } else {
+            num2 ^= arr[i];
+        }
+    }
+
+    return [num1, num2];
 }
