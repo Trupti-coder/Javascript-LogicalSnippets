@@ -1,3 +1,5 @@
+//Array Equality Checking 
+
 function arraysAreEqual(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false; // Different lengths, not equal
