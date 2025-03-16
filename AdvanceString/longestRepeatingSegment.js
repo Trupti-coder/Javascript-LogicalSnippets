@@ -18,9 +18,16 @@ function longestRepeatingSegment(str){
 
             }
 
+            if (count >= 3 && len > maxLen) {
+                maxLen = len;
+                longestSegment = sub;
+            }
+
 
         }
     }
+
+    return longestSegment;
 
 
 }
