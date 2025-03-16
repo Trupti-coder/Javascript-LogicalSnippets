@@ -22,3 +22,11 @@ function countDiamonds(grid){
     return count;
 
 }
+
+// Test Cases
+let grid1 = [
+    [0, 1, 0],
+    [1, 1, 1],
+    [0, 1, 0]
+];
+console.log("Diamond Count:", countDiamonds(grid1));
