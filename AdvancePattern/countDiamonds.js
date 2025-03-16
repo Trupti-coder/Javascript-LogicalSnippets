@@ -13,9 +13,12 @@ function countDiamonds(grid){
                 grid[i][j - size] === 1 && grid[i][j + size] === 1
               
             ){
-                
+                count++;
+                size++;
             }
         }
     }
+
+    return count;
 
 }
