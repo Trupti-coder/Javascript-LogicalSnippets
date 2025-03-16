@@ -29,5 +29,9 @@ function longestRepeatingSegment(str){
 
     return longestSegment;
 
-
 }
+
+//Example usage
+
+console.log("Repeating Segment Intersection:", longestRepeatingSegment("abcabcabc"));
+ // Output: "abc"
