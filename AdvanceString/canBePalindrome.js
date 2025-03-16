@@ -1,0 +1,3 @@
+function canBePalindrome(word){
+    
+}
