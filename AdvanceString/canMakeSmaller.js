@@ -6,7 +6,17 @@ function canmakeSmaller(str){
             let t=temp[i];
             temp[i]=temp[j];
             temp[j]=t;
-            
+            if(temp.join('')<str){
+                return true;
+            }
         }
     }
+
+    return false;
 }
+
+//Example usage
+
+console.log("Balanced Letter Swap:", canMakeSmaller("dcba")); 
+
+// Output: true
