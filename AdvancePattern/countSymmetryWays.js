@@ -1,0 +1,3 @@
+function countSymmetryWays(pattern){
+    
+}
