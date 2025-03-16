@@ -12,3 +12,12 @@ function isDiagonallySymmetric(grid){
     return true;
 
 }
+
+//Example Usage
+
+let grid2 = [
+    ['a', 'b', 'c'],
+    ['b', 'x', 'y'],
+    ['c', 'y', 'z']
+];
+console.log("Is Diagonal Symmetric:", isDiagonallySymmetric(grid2));
