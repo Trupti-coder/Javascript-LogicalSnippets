@@ -15,4 +15,5 @@ function countSymmetryWays(pattern){
             }
         }
     }
+    return ways;
 }
