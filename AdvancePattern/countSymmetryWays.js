@@ -17,3 +17,13 @@ function countSymmetryWays(pattern){
     }
     return ways;
 }
+
+//Example usage
+let pattern = [
+    ['#', '*', '#'],
+    ['*', '#', '*'],
+    ['#', '*', '#']
+];
+console.log("Symmetric Ways:", countSymmetricWays(pattern)); 
+
+// Expected Output: 4
