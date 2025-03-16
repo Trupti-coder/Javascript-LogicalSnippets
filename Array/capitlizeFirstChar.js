@@ -7,7 +7,7 @@ function capitlizeFirstChar(arr){
             if(j===0){
                 let charCode=word.charCodeAt(j);
                 if(charCode>=97 && charCode<=122){
-                    uppercasedWords+=String.fromCharCode(charCode-32);
+                    capitlizedword+=String.fromCharCode(charCode-32);
 
                 }
                 else{
