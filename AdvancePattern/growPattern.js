@@ -1,0 +1,3 @@
+function growPattern(grid,t){
+    
+}
