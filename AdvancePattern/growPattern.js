@@ -17,7 +17,10 @@ function growPattern(grid,t){
                 }
             }
         }
+        newGrid=temp;
 
     }
+
+    return newGrid;
 
 }
