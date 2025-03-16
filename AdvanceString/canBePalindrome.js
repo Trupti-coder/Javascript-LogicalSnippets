@@ -20,3 +20,5 @@ function canBePalindrome(word){
 //Example Usage
 console.log("Palindrome Anagram Chain:", longestPalindromeChain(["civic", "ivicc", "hello", "level", "racecar"]));
  // Output: 4
+
+ 
