@@ -24,3 +24,15 @@ function growPattern(grid,t){
     return newGrid;
 
 }
+
+//Example Usage
+
+let grid3 = [
+    [0, 0, 0, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 1, 0, 0],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 0, 0]
+];
+console.log("Pattern Growth:", growPattern(grid3, 2)); 
+// Expected Output: Updated grid after 2 time steps
