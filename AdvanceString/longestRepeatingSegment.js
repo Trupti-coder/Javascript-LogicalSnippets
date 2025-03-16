@@ -10,6 +10,14 @@ function longestRepeatingSegment(str){
             let sub = str.substring(i, i + len);
             let count = 0;
 
+            for (let j = 0; j + len <= n; j++){
+
+                if (sub === str.substring(j, j + len)){
+                    count++;
+                }
+
+            }
+
 
         }
     }
