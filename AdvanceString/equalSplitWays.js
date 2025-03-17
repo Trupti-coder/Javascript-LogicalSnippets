@@ -14,4 +14,12 @@ function equalSplitWays(str){
         if (freq1[key] !== freq2[key]) return 0;
     }
 
+    return 1;
+
 }
+
+//Example usage
+
+console.log("Equal Split Ways:", equalSplitWays("aabb"));
+
+// Output: 1
