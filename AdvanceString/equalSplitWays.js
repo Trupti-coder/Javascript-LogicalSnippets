@@ -1,0 +1,3 @@
+function equalSplitWays(str){
+    
+}
