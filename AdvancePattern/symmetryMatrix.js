@@ -12,3 +12,7 @@ function  isHorizontallySymmetric(matrix){
     return true;
 
 }
+
+function isVerticallySymmetric(matrix){
+    
+}
