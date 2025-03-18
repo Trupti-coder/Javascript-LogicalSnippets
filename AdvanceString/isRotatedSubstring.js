@@ -21,4 +21,11 @@ function isRotatedSubstring(s1,s2){
 
     }
 
+    return false;
+
 }
+
+
+
+console.log(isRotatedSubstring("abcde", "cdeab")); // Output: true
+console.log(isRotatedSubstring("abcde", "edcba")); // Output: false
