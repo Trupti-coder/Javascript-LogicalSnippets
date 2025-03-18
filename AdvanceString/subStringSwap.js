@@ -16,6 +16,18 @@ function subStringSwap(str){
         else swapped += str[k];
     }
 
+    // Check if the string is balanced
+    let count = 0;
+    let valid = true;
+    for (let k = 0; k < n; k++) {
+        if (swapped[k] === '(') count++;
+        else if (swapped[k] === ')') count--;
+        if (count < 0) {
+            valid = false;
+            break;
+        }
+    }
+
 
      
 }
