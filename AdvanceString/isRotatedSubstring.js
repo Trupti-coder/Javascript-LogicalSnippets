@@ -8,8 +8,16 @@ function isRotatedSubstring(s1,s2){
         let match = true;
         for (let j = 0; j < n; j++){
 
-            
+
+            if (s1[j] !== s2[(i + j) % n]) {
+                match = false;
+                break;
+            }
+
+
         }
+
+        if (match) return true;
 
     }
 
