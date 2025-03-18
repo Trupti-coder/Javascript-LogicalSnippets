@@ -27,7 +27,13 @@ function minDeletionsForUniqueSubstrings(str){
             }
         }
 
+        minDeletions += count;
+
     }
 
+    
 
 }
+return minDeletions;
+}
+
