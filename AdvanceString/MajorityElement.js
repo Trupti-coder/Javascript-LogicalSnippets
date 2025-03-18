@@ -30,3 +30,7 @@ function majorityElement(arr){
      return count > arr.length / 2 ? candidate : -1;
 
 }
+
+
+console.log(majorityElement([2, 2, 1, 1, 2, 2])); // Output: 2
+console.log(majorityElement([1, 2, 3, 4])); // Output: -1
