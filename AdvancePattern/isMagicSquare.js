@@ -18,12 +18,16 @@ function isMagicSquare(matrix){
 
         if (rowSum !== sum || colSum !== sum) return false;
 
+    }
+
          // Check diagonals
     let diag1 = 0, diag2 = 0;
     for (let i = 0; i < n; i++) {
         diag1 += matrix[i][i];
         diag2 += matrix[i][n - i - 1];
     }
+
+    return diag1 === sum && diag2 === sum;
 
 
 }
