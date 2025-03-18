@@ -7,6 +7,13 @@ function largestRotation(str){
         for(let j=0;j<n;j++){
             rotated+=str[(i+j)%n]
         }
+        if(rotated>maxStr){
+            maxStr=rotated;
+        }
     }
 
+    return maxStr;
+
 }
+
+console.log(largestRotation("bca"));
