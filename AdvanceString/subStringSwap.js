@@ -43,3 +43,7 @@ function subStringSwap(str){
     return maxLen;
 
 }
+
+//Example usage
+
+console.log(maxBalancedSubstringSwap("())(")); // Output: 2
