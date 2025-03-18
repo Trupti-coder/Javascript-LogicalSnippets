@@ -12,8 +12,18 @@ function minDeletionsForUniqueSubstrings(str){
             for (let j = i + 1; j <= n - len; j++){
                 let isSame = true;
                 for (let k = 0; k < len; k++){
-                    
+
+                    if (str[i + k] !== str[j + k]){
+
+                        isSame = false;
+                        break;
+
+                    }  
+
                 }
+
+                if (isSame) {
+                    count++;
             }
         }
 
