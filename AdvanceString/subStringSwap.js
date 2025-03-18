@@ -29,9 +29,17 @@ function subStringSwap(str){
     }
 
 
+    if (valid && count === 0) {
+        let len = j - i + 1;
+        if (len > maxLen) maxLen = len;
+    }
+
+
      
 }
 
     }
+
+    return maxLen;
 
 }
