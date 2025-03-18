@@ -19,7 +19,15 @@ function spiralPrint(matrix){
             bottom--;
         }
 
+        if (left <= right) {
+            for (let i = bottom; i >= top; i--) result.push(matrix[i][left]);
+            left++;
+        }
+
     }
+
+    
+    return result;
 
 
 }
