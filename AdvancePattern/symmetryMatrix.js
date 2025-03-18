@@ -19,9 +19,16 @@ function isVerticallySymmetric(matrix){
     for (let i = 0; i < n; i++){
 
         for (let j = 0; j < n / 2; j++){
+
+            if (matrix[i][j] !== matrix[i][n - j - 1]) {
+                return false;
+            }
+
             
         }
 
     }
+
+    return true;
 
 }
