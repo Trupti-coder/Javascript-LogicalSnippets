@@ -6,6 +6,7 @@ function compressString(str){
             count++;
         }
         else{
+            
             compressed+=str[i]+count;
             count=1;
         }
