@@ -32,3 +32,14 @@ function isVerticallySymmetric(matrix){
     return true;
 
 }
+
+
+
+// Test
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 4],
+    [3, 2, 1]
+];
+console.log(isVerticallySymmetric(matrix)); // true
+console.log(isHorizontallySymmetric(matrix)); // false
