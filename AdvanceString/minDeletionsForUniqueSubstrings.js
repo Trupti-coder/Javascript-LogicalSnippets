@@ -35,5 +35,10 @@ function minDeletionsForUniqueSubstrings(str){
 
 }
 return minDeletions;
+
 }
+
+console.log(minDeletionsForUniqueSubstrings("abab"));
+
+// Output: 2
 
