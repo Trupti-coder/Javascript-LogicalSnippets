@@ -18,3 +18,10 @@ function isDiagonallyDominant(matrix){
     return true;
 
 }
+
+let matrix = [
+    [4, 1, 2],
+    [1, 6, 3],
+    [0, 1, 7]
+];
+console.log(isDiagonallyDominant(matrix)); // true
