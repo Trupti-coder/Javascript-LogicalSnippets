@@ -16,4 +16,11 @@ function isValidSpiral(matrix){
 
         }
 
+        right--;
+        if (top <= bottom) {
+            for (let i = right; i >= left; i--) {
+                if (matrix[bottom][i] !== count++) return false;
+            }
+            bottom--;
+
 }
