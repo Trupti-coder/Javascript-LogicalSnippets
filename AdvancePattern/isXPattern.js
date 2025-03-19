@@ -13,8 +13,10 @@ function isXPattern(matrix){
 
             else{
 
+                if (matrix[i][j] !== 0) return false;
 
-                
+
+
             }
 
 
