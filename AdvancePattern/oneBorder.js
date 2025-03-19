@@ -10,4 +10,12 @@ function oneBorder(matrix){
 
     }
 
+     // Check left and right columns
+     for (let i = 0; i < n; i++) {
+        if (matrix[i][0] !== 1 || matrix[i][m - 1] !== 1) return false;
+
+     }
+
+     return true;
+
 }
