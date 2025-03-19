@@ -23,4 +23,14 @@ function isValidSpiral(matrix){
             }
             bottom--;
 
+        }
+        if (left <= right) {
+            for (let i = bottom; i >= top; i--) {
+                if (matrix[i][left] !== count++) return false;
+            }
+            left++;
+        }
+    }
+    return true;
+
 }
