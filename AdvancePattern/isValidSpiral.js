@@ -10,4 +10,10 @@ function isValidSpiral(matrix){
             if (matrix[top][i] !== count++) return false;
         }
 
+        top++;
+        for (let i = top; i <= bottom; i++) {
+            if (matrix[i][right] !== count++) return false;
+
+        }
+
 }
