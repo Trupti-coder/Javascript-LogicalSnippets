@@ -25,4 +25,15 @@ function isXPattern(matrix){
 
     }
 
+    return true;
+
 }
+
+
+
+let xMatrix = [
+    [1, 0, 1],
+    [0, 1, 0],
+    [1, 0, 1]
+];
+console.log(isXPattern(xMatrix)); // true
