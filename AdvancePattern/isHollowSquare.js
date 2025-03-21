@@ -1,0 +1,4 @@
+function isHollowSquare(matrix) {
+
+    
+}
