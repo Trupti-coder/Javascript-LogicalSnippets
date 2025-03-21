@@ -7,9 +7,21 @@ function isHollowSquare(matrix) {
 
         for (let j = 0; j < n; j++){
 
-            
+             // Border check
+             if (i === 0 || j === 0 || i === n - 1 || j === n - 1){
+
+
+                if (matrix[i][j] !== 1) return false;
+            } else {
+                if (matrix[i][j] !== 0) return false;
+            }
+
+
+             }
         }
+
+
+        
     }
 
 
-}
