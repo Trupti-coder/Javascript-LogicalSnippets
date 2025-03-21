@@ -17,7 +17,9 @@ function isCrossPattern(matrix){
 
             else{
 
-                
+                if (matrix[i][j] !== 0) return false;
+
+
             }
 
 
@@ -27,5 +29,14 @@ function isCrossPattern(matrix){
     }
 
 
+    return true;
 
 }
+
+
+let crossMatrix = [
+    [0, 1, 0],
+    [1, 1, 1],
+    [0, 1, 0]
+];
+console.log(isCrossPattern(crossMatrix)); // true
