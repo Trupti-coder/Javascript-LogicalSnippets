@@ -1,0 +1,3 @@
+function hasDiagonalZeros(matrix){
+    
+}
