@@ -7,7 +7,17 @@ function isCenterExpanding(matrix){
     for (let i = 0; i <= mid; i++){
 
 
-        
+        for (let j = 0; j <= mid; j++){
+            if(
+
+
+
+
+
+
+                
+            )
+        }
     }
 
 }
