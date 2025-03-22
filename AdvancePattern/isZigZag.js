@@ -17,6 +17,11 @@ function isZigZag(matrix){
             else{
 
 
+                for (let j = n - 1; j >= 0; j--) {
+                    if (matrix[i][j] !== count++) return false;
+                }
+
+
 
             }
 
