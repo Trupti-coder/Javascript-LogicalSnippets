@@ -12,6 +12,13 @@ function isZigZag(matrix){
 
                 if (matrix[i][j] !== count++) return false;
             }
+        }
+
+            else{
+
+
+
+            }
 
 
 
