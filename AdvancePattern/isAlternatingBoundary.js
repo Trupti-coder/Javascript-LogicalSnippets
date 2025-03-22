@@ -17,3 +17,11 @@ function isAlternatingBoundary(matrix){
     return true;
 
 }
+
+
+let alternatingMatrix = [
+    [1, 0, 1],
+    [0, 1, 0],
+    [1, 0, 1]
+];
+console.log(isAlternatingBoundary(alternatingMatrix)); // true
