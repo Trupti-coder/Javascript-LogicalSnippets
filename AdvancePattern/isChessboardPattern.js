@@ -18,4 +18,13 @@ function isChessboardPattern(matrix){
         }
     }
 
+    return true;
+
 }
+
+let chessboardMatrix = [
+    [0, 1, 0],
+    [1, 0, 1],
+    [0, 1, 0]
+];
+console.log(isChessboardPattern(chessboardMatrix)); // true
