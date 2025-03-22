@@ -20,9 +20,18 @@ function isCenterExpanding(matrix){
 
             ){
 
-                
+                return true;
+
             }
         }
     }
 
 }
+
+
+let expandingMatrix = [
+    [3, 2, 3],
+    [2, 1, 2],
+    [3, 2, 3]
+];
+console.log(isCenterExpanding(expandingMatrix)); // true
