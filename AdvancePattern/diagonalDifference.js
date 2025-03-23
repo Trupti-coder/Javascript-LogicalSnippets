@@ -11,4 +11,13 @@ function diagonalDifference(matrix){
 
     }
 
+    return Math.abs(mainDiagonalSum - secondaryDiagonalSum);
+
 }
+
+let diagMatrix = [
+    [3, 2, 1],
+    [4, 5, 6],
+    [9, 8, 7]
+];
+console.log(diagonalDifference(diagMatrix)); // 0
