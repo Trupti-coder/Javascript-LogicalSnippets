@@ -19,6 +19,19 @@ function generateSpiralMatrix(matrix){
         for (let i = top; i <= bottom; i++) {
             matrix[i][right] = count++;
         }
+
+
+        right--;
+        if (top <= bottom) {
+            for (let i = right; i >= left; i--) {
+                matrix[bottom][i] = count++;
+            }
+            bottom--;
+        }
+
+
+
+        
     }
 
 
