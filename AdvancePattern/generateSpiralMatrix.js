@@ -30,8 +30,14 @@ function generateSpiralMatrix(matrix){
         }
 
 
+        if (left <= right) {
+            for (let i = bottom; i >= top; i--) {
+                matrix[i][left] = count++;
+            }
+            left++;
+        }
 
-        
+
     }
 
 
