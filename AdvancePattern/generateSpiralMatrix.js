@@ -40,5 +40,11 @@ function generateSpiralMatrix(matrix){
 
     }
 
+    return matrix;
+
 
 }
+
+
+let n = 3;
+console.log(generateSpiralMatrix(n));
