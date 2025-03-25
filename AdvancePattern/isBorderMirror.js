@@ -13,4 +13,6 @@ function isBorderMirror(matrix){
     }
 }
 
+return true;
+
 }
