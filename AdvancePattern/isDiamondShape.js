@@ -7,6 +7,14 @@ function isDiamondShape(matrix){
 
 
 
-        
+        for (let j = 0; j < n; j++) {
+            let distance = Math.abs(mid - i) + Math.abs(mid - j);
+            if ((distance <= mid && matrix[i][j] !== 1) || (distance > mid && matrix[i][j] !== 0)) {
+                return false;
+            }
     } 
+}
+
+
+return true;
 }
