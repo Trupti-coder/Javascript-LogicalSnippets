@@ -15,4 +15,6 @@ function isXShape(matrix){
     }
 
 
+    return true;
+
 }
