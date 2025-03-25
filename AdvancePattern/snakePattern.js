@@ -20,4 +20,6 @@ function snakePattern(matrix){
     }
 }
 
+console.log(result.join(', '));
+
 }
