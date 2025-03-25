@@ -1,0 +1,3 @@
+function isInvertedTriangle(matrix){
+    
+}
