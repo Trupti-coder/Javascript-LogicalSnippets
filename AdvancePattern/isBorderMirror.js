@@ -7,7 +7,10 @@ function isBorderMirror(matrix){
 
         for (let j = 0; j < n; j++){
 
-            
+            if (matrix[i][j] !== matrix[n - i - 1][j] || matrix[i][j] !== matrix[i][n - j - 1]) {
+                return false; 
         }
     }
+}
+
 }
